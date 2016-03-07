@@ -1,0 +1,302 @@
+WEBVTT
+
+1
+00:00:00.726 --> 00:00:04.268
+[MUSIC]
+
+2
+00:00:04.268 --> 00:00:08.076
+In this specialization we're going
+to use a number of Python tools that
+
+3
+00:00:08.076 --> 00:00:10.995
+really help us get started
+with machine learning, and
+
+4
+00:00:10.995 --> 00:00:14.850
+build applications that
+really scale to lots of data.
+
+5
+00:00:14.850 --> 00:00:17.510
+One of them is called SFrames,
+
+6
+00:00:17.510 --> 00:00:23.310
+which is a really scalable data structure
+for dealing with big tables of data.
+
+7
+00:00:23.310 --> 00:00:27.090
+It doesn't have to fit in memory, it goes
+into the disk of your computer and so
+
+8
+00:00:27.090 --> 00:00:29.780
+can scale up to millions of rows of data,
+
+9
+00:00:29.780 --> 00:00:31.510
+even if you don't have that
+much memory in your machine.
+
+10
+00:00:31.510 --> 00:00:34.030
+And we'll see lots of examples of that.
+
+11
+00:00:34.030 --> 00:00:38.804
+And that data search with SFrame is
+part of a package called GraphLab Create
+
+12
+00:00:38.804 --> 00:00:41.770
+that we'll also use in
+this specialization.
+
+13
+00:00:42.790 --> 00:00:48.090
+So let's hear an example from IPython
+notebook of how to use the SFrame.
+
+14
+00:00:49.800 --> 00:00:55.540
+So here's a IPython notebook, just
+like we did with the previous example.
+
+15
+00:00:55.540 --> 00:00:59.611
+And I'm gonna call it,
+
+16
+00:00:59.611 --> 00:01:05.115
+Getting Started with SFrames.
+
+17
+00:01:05.115 --> 00:01:09.492
+And just to get a little
+bit more space on my slide,
+
+18
+00:01:09.492 --> 00:01:14.090
+I'm going to hide that header and
+hide the toolbar.
+
+19
+00:01:14.090 --> 00:01:17.460
+So now there's a little bit
+more space in the slide.
+
+20
+00:01:17.460 --> 00:01:21.240
+Now to get those frames you have
+to fire up GraphLab Create, and so
+
+21
+00:01:21.240 --> 00:01:24.060
+firing that up is pretty easy.
+
+22
+00:01:24.060 --> 00:01:30.111
+So I'm hitting ask+M here to get
+a textbox just like a wiki page and
+
+23
+00:01:30.111 --> 00:01:36.480
+I'm going to fire up, oops,
+that, I hit enter too quickly.
+
+24
+00:01:36.480 --> 00:01:38.220
+I'm going, let me just edit that again.
+
+25
+00:01:38.220 --> 00:01:42.250
+It does not wanna let me edit it.
+
+26
+00:01:42.250 --> 00:01:48.950
+There, fire up GraphLab Create.
+
+27
+00:01:48.950 --> 00:01:52.310
+So every time we wanna start
+GraphLab Create, all we have to do.
+
+28
+00:01:52.310 --> 00:01:54.940
+After we start, is type import graphlab.
+
+29
+00:01:54.940 --> 00:01:58.663
+And now we have all the tools of
+GraphLab Create available for us,
+
+30
+00:01:58.663 --> 00:02:03.960
+including the SFrame, and any algorithms
+that we'll use throughout this course.
+
+31
+00:02:05.650 --> 00:02:11.920
+So, the first thing that I'm going
+to do is load some data from disk.
+
+32
+00:02:11.920 --> 00:02:20.024
+So, I'm going to #Load a tabular data set.
+
+33
+00:02:20.024 --> 00:02:24.750
+So, loading a tabular data set
+as an SFrame is pretty simple.
+
+34
+00:02:24.750 --> 00:02:29.080
+The data set can be in
+many different formats.
+
+35
+00:02:29.080 --> 00:02:32.350
+What we're gonna use is what's
+called a CSV format in this example,
+
+36
+00:02:32.350 --> 00:02:34.800
+which is just a comma separated file.
+
+37
+00:02:34.800 --> 00:02:36.950
+And that file is in my current directory.
+
+38
+00:02:36.950 --> 00:02:42.382
+And actually,
+I'm gonna create a variable in SFrame and
+
+39
+00:02:42.382 --> 00:02:46.170
+just call it sf for this example.
+
+40
+00:02:46.170 --> 00:02:50.230
+All I have to do is graphlab.SFrame and
+
+41
+00:02:50.230 --> 00:02:54.590
+give it a target directory,
+or file and it will load it.
+
+42
+00:02:54.590 --> 00:02:59.240
+So in this case, my file is gonna
+be called people-example.csv.
+
+43
+00:02:59.240 --> 00:03:02.900
+And here we go.
+
+44
+00:03:02.900 --> 00:03:07.349
+So it prints a few things saying that
+it parsed and it parsed it correctly.
+
+45
+00:03:07.349 --> 00:03:08.600
+And now we have it.
+
+46
+00:03:08.600 --> 00:03:11.080
+So let's do some SFrame basics.
+
+47
+00:03:12.910 --> 00:03:18.661
+So let's start with some #SFrame basics.
+
+48
+00:03:20.630 --> 00:03:24.620
+So some SFrame basics here,
+if you just type sf,
+
+49
+00:03:24.620 --> 00:03:28.540
+enter, in this case shift+enter,
+because when they are IPython notebook
+
+50
+00:03:28.540 --> 00:03:32.260
+it just shows you the first
+few lines of that table.
+
+51
+00:03:32.260 --> 00:03:38.413
+So, in this case I'm going
+to put a comment here,#we
+
+52
+00:03:38.413 --> 00:03:47.210
+can view first few lines of the table.
+
+53
+00:03:48.640 --> 00:03:49.870
+So, here we go.
+
+54
+00:03:49.870 --> 00:03:51.970
+This is a very simple table.
+
+55
+00:03:51.970 --> 00:03:54.500
+Actually, I'm seeing all the lines.
+
+56
+00:03:54.500 --> 00:03:56.320
+It says the first name Bob,
+
+57
+00:03:56.320 --> 00:04:00.400
+last name Smith, who lives in
+the United States, has age 24.
+
+58
+00:04:00.400 --> 00:04:02.790
+And we have this for several people.
+
+59
+00:04:02.790 --> 00:04:05.320
+By the way, there's two ways to
+access the first few lines in file.
+
+60
+00:04:05.320 --> 00:04:13.980
+You can do, type sf, you can also type
+sf.head to show the first few lines.
+
+61
+00:04:13.980 --> 00:04:16.810
+And again, it's a small data
+set we're playing with so far.
+
+62
+00:04:16.810 --> 00:04:20.436
+But there's another command
+called sf.tail that
+
+63
+00:04:20.436 --> 00:04:24.160
+shows the last few lines of the data set.
+
+64
+00:04:24.160 --> 00:04:27.200
+Which again, this is a small data set.
+
+65
+00:04:27.200 --> 00:04:29.262
+So first few lines,
+last few lines, all of the lines.
+
+66
+00:04:29.262 --> 00:04:32.579
+[MUSIC]

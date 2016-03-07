@@ -1,0 +1,554 @@
+WEBVTT
+
+1
+00:00:00.093 --> 00:00:04.053
+[MUSIC]
+
+2
+00:00:04.053 --> 00:00:08.542
+So we talked about variable types, and
+
+3
+00:00:08.542 --> 00:00:13.310
+we talked about small transformations.
+
+4
+00:00:13.310 --> 00:00:16.470
+So now, let's go to the next step.
+
+5
+00:00:16.470 --> 00:00:22.420
+In the next step we're going
+to do conditional statements.
+
+6
+00:00:22.420 --> 00:00:29.466
+So Esc+M,
+I'm gonna define another section here,
+
+7
+00:00:29.466 --> 00:00:35.750
+Conditional statements in python, okay.
+
+8
+00:00:35.750 --> 00:00:40.730
+So there are various ways to
+build a conditional statement
+
+9
+00:00:40.730 --> 00:00:45.720
+in Python depending on how long and
+how complicated it is.
+
+10
+00:00:45.720 --> 00:00:51.480
+So let's do a very simple one.
+
+11
+00:00:51.480 --> 00:00:55.470
+For example,
+let's say that I want to ask if
+
+12
+00:00:55.470 --> 00:01:00.250
+the integer variable i that
+I created is equal to 1.
+
+13
+00:01:00.250 --> 00:01:01.770
+That's my test.
+
+14
+00:01:01.770 --> 00:01:07.890
+And the float variable
+that we created is > 4.
+
+15
+00:01:07.890 --> 00:01:08.860
+That's my conditional statement.
+
+16
+00:01:08.860 --> 00:01:11.300
+It's easy to read, and
+
+17
+00:01:11.300 --> 00:01:16.080
+if this is the case, colon,
+we put a colon after the if statement.
+
+18
+00:01:16.080 --> 00:01:17.490
+We do something.
+
+19
+00:01:17.490 --> 00:01:21.290
+Now in Python,
+there's no open brackets and
+
+20
+00:01:21.290 --> 00:01:24.740
+close brackets like you have in C for
+example or in Java.
+
+21
+00:01:24.740 --> 00:01:30.500
+All you have to do is put any amount of
+spacing or tabulation in the next line.
+
+22
+00:01:30.500 --> 00:01:34.795
+And that's what defines kind of the pieces
+that will be inside the brackets,
+
+23
+00:01:34.795 --> 00:01:37.190
+inside of another programming language.
+
+24
+00:01:37.190 --> 00:01:39.350
+And you just keep aligning
+them the same way.
+
+25
+00:01:39.350 --> 00:01:42.290
+And iPython Notebook is nice
+because it does all the tabulation
+
+26
+00:01:42.290 --> 00:01:43.970
+automatically for you.
+
+27
+00:01:43.970 --> 00:01:50.510
+So let's say if i == 1 and
+f > 4 something happen.
+
+28
+00:01:50.510 --> 00:01:54.830
+So I'm gonna print
+
+29
+00:01:54.830 --> 00:01:59.690
+the value of i is 1 and
+
+30
+00:01:59.690 --> 00:02:04.550
+f is greater than 4.
+
+31
+00:02:04.550 --> 00:02:10.290
+Now, I'm gonna just print
+that if this is the case.
+
+32
+00:02:10.290 --> 00:02:13.530
+But I also wanna have another condition,
+I wanna have an else condition.
+
+33
+00:02:15.780 --> 00:02:20.540
+So in Python,
+you could just type else something, but
+
+34
+00:02:20.540 --> 00:02:22.478
+I want to have multiple conditions.
+
+35
+00:02:22.478 --> 00:02:26.420
+So I wanna do another else if,
+if some other condition is true.
+
+36
+00:02:26.420 --> 00:02:30.040
+And Python allows you to
+concatenate elses and ifs together.
+
+37
+00:02:30.040 --> 00:02:36.710
+So if you just create an elif, it's kind
+of a cute little syntactic sugar here.
+
+38
+00:02:36.710 --> 00:02:42.440
+So if the first condition, i == 1, f > 4
+does not hold, ask the following question.
+
+39
+00:02:42.440 --> 00:02:44.170
+Is i > 4?
+
+40
+00:02:46.960 --> 00:02:48.920
+Or, so there's ands.
+
+41
+00:02:48.920 --> 00:02:50.800
+So I'm gonna put a nice little space here.
+
+42
+00:02:50.800 --> 00:02:52.630
+Ands and ors, you just say or.
+
+43
+00:02:52.630 --> 00:02:57.420
+You don't have any kind of that
+fancy vertical brackets or anything.
+
+44
+00:02:57.420 --> 00:03:03.470
+Let's just say and and or, f > 4.
+
+45
+00:03:03.470 --> 00:03:05.220
+Do something else.
+
+46
+00:03:05.220 --> 00:03:09.863
+So our something
+
+47
+00:03:09.863 --> 00:03:14.836
+else is print i and
+
+48
+00:03:14.836 --> 00:03:22.470
+f are both greater than 4.
+
+49
+00:03:22.470 --> 00:03:28.220
+Now if this is not true,
+we can add another else at the end.
+
+50
+00:03:28.220 --> 00:03:30.340
+So I'm gonna backspace and
+align in the beginning.
+
+51
+00:03:30.340 --> 00:03:35.235
+Just put another else with a colon at
+
+52
+00:03:35.235 --> 00:03:40.453
+the end and say if this is not the case,
+
+53
+00:03:40.453 --> 00:03:44.380
+then you say print say both.
+
+54
+00:03:44.380 --> 00:03:47.550
+So if this condition is not
+the case then what we know.
+
+55
+00:03:47.550 --> 00:03:53.010
+We know that i is not greater than 4 and
+i is not equal to 1.
+
+56
+00:03:53.010 --> 00:03:55.470
+f is not greater than 4.
+
+57
+00:03:55.470 --> 00:03:57.220
+So there's some things that have happened.
+
+58
+00:03:57.220 --> 00:04:03.140
+So we can just say
+something like both i and
+
+59
+00:04:03.140 --> 00:04:10.582
+f are less than or equal to 4,
+and we also have that,
+
+60
+00:04:10.582 --> 00:04:15.840
+well let's say that this is enough.
+
+61
+00:04:15.840 --> 00:04:17.970
+Okay, I'm done.
+
+62
+00:04:17.970 --> 00:04:22.210
+I'm done with my statement and
+now remember the values of i and f.
+
+63
+00:04:22.210 --> 00:04:23.538
+I just printed it out here.
+
+64
+00:04:23.538 --> 00:04:26.880
+i was 4 and f was 4.1.
+
+65
+00:04:26.880 --> 00:04:29.420
+So if you go through the first line,
+you notice that i is not equal to 1.
+
+66
+00:04:29.420 --> 00:04:32.800
+So you go to the next line,
+you notice that i is not greater than 4.
+
+67
+00:04:32.800 --> 00:04:36.740
+So you go to the next line, you're just
+going to print this last statement,
+
+68
+00:04:36.740 --> 00:04:38.790
+both i and f are less than or equal to 4.
+
+69
+00:04:38.790 --> 00:04:43.200
+So if I do Shift+Enter, I execute
+this conditional, and there you go.
+
+70
+00:04:46.220 --> 00:04:48.410
+i and f are both greater than 4.
+
+71
+00:04:48.410 --> 00:04:49.580
+So, that was good.
+
+72
+00:04:49.580 --> 00:04:52.500
+We built our first conditional here.
+
+73
+00:04:52.500 --> 00:04:53.760
+It's all fine.
+
+74
+00:04:53.760 --> 00:04:59.150
+Now that we've done some conditionals,
+let's do some loops.
+
+75
+00:04:59.150 --> 00:05:04.198
+So, again, I'm gonna go into
+
+76
+00:05:04.198 --> 00:05:10.026
+the editing mode markdown Esc+M,
+
+77
+00:05:10.026 --> 00:05:17.420
+and we're gonna do some conditional loops.
+
+78
+00:05:17.420 --> 00:05:20.720
+So, what kind of conditional
+loops can we do in Python?
+
+79
+00:05:20.720 --> 00:05:21.970
+We can do for loops.
+
+80
+00:05:21.970 --> 00:05:28.460
+So for example, we can do a for,
+so remember we had a list.
+
+81
+00:05:28.460 --> 00:05:30.130
+This is kind of fun.
+
+82
+00:05:30.130 --> 00:05:32.820
+So let me just print it
+to remind ourselves.
+
+83
+00:05:32.820 --> 00:05:37.280
+So if I print a list l, that we built
+in the beginning, it was 3, 1, 2.
+
+84
+00:05:37.280 --> 00:05:40.135
+So let's do for
+a loop that iterates over that list.
+
+85
+00:05:40.135 --> 00:05:44.659
+So for, let's say element in l For
+
+86
+00:05:44.659 --> 00:05:51.290
+each element in l,
+I'm going to do something.
+
+87
+00:05:51.290 --> 00:05:54.030
+I'm going to print the element.
+
+88
+00:05:54.030 --> 00:05:57.380
+So, this goes element by element of l.
+
+89
+00:05:57.380 --> 00:05:59.630
+And I just call it element,
+I could have called it anything.
+
+90
+00:05:59.630 --> 00:06:00.180
+Let's call it e.
+
+91
+00:06:01.190 --> 00:06:04.860
+So, for e in l, print it.
+
+92
+00:06:04.860 --> 00:06:07.810
+So it's going to go 3 print,
+1 print, 2 print.
+
+93
+00:06:07.810 --> 00:06:10.510
+Let's execute that and you see 3 1 2.
+
+94
+00:06:10.510 --> 00:06:14.091
+And notice in Python when you call print,
+you always insert a new line at the end,
+
+95
+00:06:14.091 --> 00:06:15.740
+so you've got 3 1 2 in your lines.
+
+96
+00:06:17.240 --> 00:06:20.400
+Now that is a simple for loop.
+
+97
+00:06:20.400 --> 00:06:23.800
+Lastly, let's create a simple while loop.
+
+98
+00:06:25.680 --> 00:06:28.170
+So you can do fors, you can do whiles.
+
+99
+00:06:28.170 --> 00:06:33.696
+So for example, while might say,
+while a counter is,
+
+100
+00:06:33.696 --> 00:06:40.700
+let's just say < 10, do something.
+
+101
+00:06:45.590 --> 00:06:50.720
+So I'm going to print the counter.
+
+102
+00:06:50.720 --> 00:06:53.810
+And, I'm going to add 1 to the counter.
+
+103
+00:06:53.810 --> 00:06:57.360
+So, I'm going to say counter, += 1.
+
+104
+00:06:57.360 --> 00:07:02.331
+So, what this is going to do is create
+a counter and print it, and add 1,
+
+105
+00:07:02.331 --> 00:07:06.910
+print it, add 1, until we get to 10,
+when it's going to stop.
+
+106
+00:07:08.090 --> 00:07:13.380
+So, notice that we never initialize
+counter, which should give us an error.
+
+107
+00:07:13.380 --> 00:07:16.080
+And so let's just run it and
+see what happens.
+
+108
+00:07:17.250 --> 00:07:21.970
+We got an error, and
+whenever you get an error in Python,
+
+109
+00:07:21.970 --> 00:07:24.940
+the error messages sometimes
+can be a little scary.
+
+110
+00:07:24.940 --> 00:07:28.780
+So you just go here and
+look at the name of error.
+
+111
+00:07:28.780 --> 00:07:32.000
+And it says down here,
+name counter is not defined.
+
+112
+00:07:32.000 --> 00:07:34.250
+Remember, we never initialized counter.
+
+113
+00:07:34.250 --> 00:07:35.190
+And it actually goes and
+
+114
+00:07:35.190 --> 00:07:39.660
+tells you a little above what line
+of the code that error occurred in.
+
+115
+00:07:39.660 --> 00:07:43.225
+So when it first started test
+while the counter is less than 10,
+
+116
+00:07:43.225 --> 00:07:45.340
+counter is never initialize, it broke.
+
+117
+00:07:45.340 --> 00:07:46.840
+So let's go back and edit.
+
+118
+00:07:46.840 --> 00:07:48.990
+I'm gonna insert a new line here.
+
+119
+00:07:48.990 --> 00:07:52.680
+Let's initialize a counter first
+through any number less than 10.
+
+120
+00:07:52.680 --> 00:07:54.140
+So, how about 6?
+
+121
+00:07:54.140 --> 00:07:59.836
+So, counter = 6, and
+I'm just gonna execute again.
+
+122
+00:07:59.836 --> 00:08:02.466
+And you'll see now it prints 6, 7, 8, 9.
+
+123
+00:08:02.466 --> 00:08:04.006
+When it gets to 10, stops.
+
+124
+00:08:04.006 --> 00:08:04.506
+[MUSIC]

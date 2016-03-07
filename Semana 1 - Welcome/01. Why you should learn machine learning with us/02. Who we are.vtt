@@ -1,0 +1,507 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.213
+[MUSIC]
+
+2
+00:00:04.213 --> 00:00:05.392
+Hi.
+I'm Carlos Guestrin.
+
+3
+00:00:05.392 --> 00:00:08.352
+I'm the Amazon Professor
+of Machine Learning.
+
+4
+00:00:08.352 --> 00:00:11.070
+>> Wait, I'm the Amazon Professor
+of Machine Learning.
+
+5
+00:00:11.070 --> 00:00:11.849
+>> Who are you?
+
+6
+00:00:11.849 --> 00:00:13.253
+>> I'm Emily Fox.
+
+7
+00:00:13.253 --> 00:00:16.500
+>> Well, I'm the Amazon Professor of
+Machine Learning in Computer Science.
+
+8
+00:00:16.500 --> 00:00:19.820
+>> And I'm the Amazon Professor of
+Machine Learning in Statistics.
+
+9
+00:00:19.820 --> 00:00:22.867
+>> We're both at the University
+of Washington in Seattle,
+
+10
+00:00:22.867 --> 00:00:24.329
+this is the United States.
+
+11
+00:00:24.329 --> 00:00:25.979
+[LAUGH] This is.
+
+12
+00:00:25.979 --> 00:00:28.980
+>> This is the United States of America.
+
+13
+00:00:28.980 --> 00:00:29.500
+>> Of America.
+
+14
+00:00:29.500 --> 00:00:30.060
+>> To clarify.
+
+15
+00:00:30.060 --> 00:00:31.350
+>> America.
+
+16
+00:00:31.350 --> 00:00:32.207
+>> America.
+
+17
+00:00:32.207 --> 00:00:37.545
+>> [LAUGH] So what are your
+qualifications to be here today, Emily?
+
+18
+00:00:37.545 --> 00:00:40.430
+[LAUGH]
+>> Am I supposed to read my CV?
+
+19
+00:00:40.430 --> 00:00:44.220
+No, okay, just the beginning of it.
+
+20
+00:00:44.220 --> 00:00:45.410
+What are my qualifications?
+
+21
+00:00:45.410 --> 00:00:45.930
+Okay.
+
+22
+00:00:45.930 --> 00:00:51.560
+Well, I went to MIT for way too long,
+nine years, though it wasn't all for
+
+23
+00:00:51.560 --> 00:00:55.105
+one degree, got a couple of them
+[LAUGH] during those nine years.
+
+24
+00:00:55.105 --> 00:00:57.310
+But yeah, I was there for
+
+25
+00:00:57.310 --> 00:01:01.500
+my PhD studying in electrical
+engineering and computer science.
+
+26
+00:01:02.640 --> 00:01:04.110
+Should I list more qualifications?
+
+27
+00:01:04.110 --> 00:01:07.580
+I think that's pretty good.
+
+28
+00:01:07.580 --> 00:01:09.330
+>> She's very well qualified.
+
+29
+00:01:09.330 --> 00:01:10.400
+Let me just say that.
+
+30
+00:01:10.400 --> 00:01:17.420
+[LAUGH] And I got my undergrad from
+University of Sao Paulo in Brazil.
+
+31
+00:01:17.420 --> 00:01:20.240
+And my PhD from Stanford
+in computer science and
+
+32
+00:01:20.240 --> 00:01:24.410
+I've been working in machine learning for
+a long time, as Emily likes to say.
+
+33
+00:01:24.410 --> 00:01:25.950
+>> A very long time.
+
+34
+00:01:25.950 --> 00:01:30.380
+I guess maybe I should describe a little
+bit about my transition to statistics.
+
+35
+00:01:30.380 --> 00:01:33.462
+So, after I did my PhD in
+electrical engineering and
+
+36
+00:01:33.462 --> 00:01:37.106
+computer science,
+I did a postdoc in statistics at Duke, and
+
+37
+00:01:37.106 --> 00:01:41.042
+actually, honestly, a lot of my
+PhD really was a statistics PhD.
+
+38
+00:01:41.042 --> 00:01:46.887
+But MIT, as of the time of this recording,
+does not have a statistics department,
+
+39
+00:01:46.887 --> 00:01:52.838
+and did not at the time I studied there
+so, yes, I'm a self-taught statistician.
+
+40
+00:01:54.670 --> 00:01:56.020
+>> And we can all be self taught.
+
+41
+00:01:56.020 --> 00:01:56.992
+>> Yes.
+>> [LAUGH]
+
+42
+00:01:56.992 --> 00:01:59.210
+>> That's what this MOOC is about.
+
+43
+00:01:59.210 --> 00:02:02.110
+>> [LAUGH] Hey, we're learning together.
+
+44
+00:02:02.110 --> 00:02:06.763
+So I've been working machine learning for
+awhile and I'm really excited about
+
+45
+00:02:06.763 --> 00:02:10.246
+methods in machine learning
+from a wide range of settings.
+
+46
+00:02:10.246 --> 00:02:14.379
+I've worked on theoretical algorithms for
+what's called planning under uncertainty
+
+47
+00:02:14.379 --> 00:02:16.620
+for making decisions
+using machine learning.
+
+48
+00:02:16.620 --> 00:02:20.320
+I've worked with sensor data
+with distributed sensors,
+
+49
+00:02:20.320 --> 00:02:24.270
+something called sensor networks which
+today is called Internet of Things.
+
+50
+00:02:24.270 --> 00:02:30.837
+But this is way back and then I took a big
+focus on large-scale machine learning.
+
+51
+00:02:30.837 --> 00:02:34.777
+So how do you scale up machine learning
+methods to lots and lots and lots of data?
+
+52
+00:02:34.777 --> 00:02:38.890
+And we'll use some of these ideas
+in this specialization as well.
+
+53
+00:02:38.890 --> 00:02:40.020
+How about you?
+
+54
+00:02:40.020 --> 00:02:42.950
+>> I don't have quite as long
+of a history as Carlos does.
+
+55
+00:02:42.950 --> 00:02:47.430
+[LAUGH]
+But the things that I really enjoy
+
+56
+00:02:47.430 --> 00:02:51.760
+working on are time series applications,
+the data that comes in over time and
+
+57
+00:02:51.760 --> 00:02:54.910
+we want to find some underlying
+structure or patterns to that data.
+
+58
+00:02:54.910 --> 00:02:58.498
+And a lot of my focus in my research
+is on how to scale up to really
+
+59
+00:02:58.498 --> 00:03:01.741
+high dimensional or
+large collections of time series,
+
+60
+00:03:01.741 --> 00:03:05.080
+especially when they have
+very complex dynamics.
+
+61
+00:03:05.080 --> 00:03:08.140
+And another one of my
+big interests is how to
+
+62
+00:03:08.140 --> 00:03:11.890
+make inferences online
+as data is streaming in.
+
+63
+00:03:11.890 --> 00:03:15.100
+And I've worked on a wide range
+of different applications,
+
+64
+00:03:15.100 --> 00:03:17.550
+some that I'm really passionate about.
+
+65
+00:03:17.550 --> 00:03:20.978
+One in particular, right now,
+is neuroscience, but
+
+66
+00:03:20.978 --> 00:03:25.152
+I've also worked on speech data,
+motion capture applications,
+
+67
+00:03:25.152 --> 00:03:29.643
+analyzing human motion, to financial
+data and the list goes on and on.
+
+68
+00:03:29.643 --> 00:03:34.193
+But lots of data have really
+important temporal structure and
+
+69
+00:03:34.193 --> 00:03:37.400
+that's really a passion of mine.
+
+70
+00:03:37.400 --> 00:03:38.320
+>> Yeah.
+>> No, yeah, that's it.
+
+71
+00:03:38.320 --> 00:03:40.298
+>> And we've been teaching machine
+learning for a long time and
+
+72
+00:03:40.298 --> 00:03:43.870
+maybe in the university setting-
+>> Some of us longer than others.
+
+73
+00:03:43.870 --> 00:03:45.247
+>> This joke never ends.
+
+74
+00:03:45.247 --> 00:03:48.660
+>> No.
+>> And many at the university setting.
+
+75
+00:03:48.660 --> 00:03:51.960
+So here we are,
+it's an exciting experience for
+
+76
+00:03:51.960 --> 00:03:55.015
+us to teach in this online course.
+
+77
+00:03:55.015 --> 00:03:55.567
+>> Yes.
+
+78
+00:03:55.567 --> 00:03:59.403
+>> So how did you decide
+to do this online course?
+
+79
+00:03:59.403 --> 00:04:00.900
+>> How did I decide?
+
+80
+00:04:00.900 --> 00:04:02.230
+That's a very good question.
+
+81
+00:04:04.160 --> 00:04:08.010
+Well, no, there are a lot of reasons
+why I wanted to do this online course.
+
+82
+00:04:08.010 --> 00:04:12.570
+But really, the most fundamental reason
+was thinking about how to disseminate
+
+83
+00:04:12.570 --> 00:04:14.480
+machine learning to a very broad audience,
+
+84
+00:04:14.480 --> 00:04:18.440
+because personally, I came from a very
+different background and training.
+
+85
+00:04:18.440 --> 00:04:24.170
+And actually Carlos did as well and
+so I, myself, have
+
+86
+00:04:24.170 --> 00:04:28.340
+gone through this experience of trying to
+learn machine learning, learn statistics.
+
+87
+00:04:28.340 --> 00:04:33.109
+And I think there's a really nice way that
+it can be taught at a very fundamental
+
+88
+00:04:33.109 --> 00:04:36.879
+level to a very broad audience and
+that's one of my passions.
+
+89
+00:04:36.879 --> 00:04:42.792
+And another reason is I'd like to think
+about this for other goals in the future
+
+90
+00:04:42.792 --> 00:04:48.614
+of how to convey this to other groups that
+I interact with on campus as a teacher
+
+91
+00:04:48.614 --> 00:04:53.658
+at the University of Washington,
+professor [LAUGH], assistant.
+
+92
+00:04:53.658 --> 00:04:55.619
+[LAUGH]
+>> Not for long.
+
+93
+00:04:55.619 --> 00:05:01.940
+So, yeah, and I'm very excited about
+how machine learning gets taught.
+
+94
+00:05:01.940 --> 00:05:05.890
+And we really have been thinking
+a lot about how to approach
+
+95
+00:05:05.890 --> 00:05:08.800
+this really broad idea of
+machine learning in a new way.
+
+96
+00:05:08.800 --> 00:05:11.390
+So in this specialization,
+
+97
+00:05:11.390 --> 00:05:15.160
+as we'll talk more about in this module,
+we'll experience machine learning
+
+98
+00:05:15.160 --> 00:05:18.260
+in a whole different way than
+you experienced in other places.
+
+99
+00:05:18.260 --> 00:05:21.410
+We're really gonna be focused on for
+applications first,
+
+100
+00:05:21.410 --> 00:05:24.890
+understanding how machine learning
+has impact and then digging in and
+
+101
+00:05:24.890 --> 00:05:28.080
+understanding how those methods
+are built and how they can be useful.
+
+102
+00:05:28.080 --> 00:05:29.620
+So part of the journey for
+
+103
+00:05:29.620 --> 00:05:34.260
+us is to build a new way to teach
+machine learning, which is cool.
+
+104
+00:05:34.260 --> 00:05:35.090
+>> It is cool.
+
+105
+00:05:35.090 --> 00:05:35.600
+>> So we're excited.
+
+106
+00:05:35.600 --> 00:05:37.177
+>> Yes.
+
+107
+00:05:37.177 --> 00:05:38.234
+We're excited.
+
+108
+00:05:38.234 --> 00:05:39.950
+[LAUGH]
+
+109
+00:05:39.950 --> 00:05:43.629
+[MUSIC]

@@ -1,0 +1,303 @@
+WEBVTT
+
+1
+00:00:00.121 --> 00:00:04.030
+[MUSIC]
+
+2
+00:00:04.030 --> 00:00:05.572
+Let's take a little pause and
+
+3
+00:00:05.572 --> 00:00:09.160
+spend some time talking about who
+the specialization is geared for.
+
+4
+00:00:11.570 --> 00:00:15.468
+Well, the first thing I want to emphasize
+is the level of the specialization.
+
+5
+00:00:15.468 --> 00:00:19.370
+And what we're going to do here
+is we're going to teach you
+
+6
+00:00:19.370 --> 00:00:23.210
+really important machine learning methods,
+but we're going to ground them in
+
+7
+00:00:23.210 --> 00:00:27.090
+real world applications like
+we saw with our case studies.
+
+8
+00:00:27.090 --> 00:00:33.430
+So a model that we have here is tough
+concepts made intuitive and applicable.
+
+9
+00:00:33.430 --> 00:00:35.895
+So this course isn't going
+to be about theorem proving.
+
+10
+00:00:35.895 --> 00:00:39.920
+It's going to be about understanding
+at a very intuitive and
+
+11
+00:00:39.920 --> 00:00:44.630
+practical level some very important
+machine learning algorithms and
+
+12
+00:00:44.630 --> 00:00:48.790
+thinking about ways in which to
+deploy them in new problems.
+
+13
+00:00:50.370 --> 00:00:55.140
+And when we're going about this, our
+goals here are to minimize the amount of
+
+14
+00:00:55.140 --> 00:00:59.550
+prerequisite knowledge that you have to
+have to understand what we're presenting,
+
+15
+00:00:59.550 --> 00:01:03.990
+while maximizing the ability for
+you to actually develop and
+
+16
+00:01:03.990 --> 00:01:08.300
+deploy these methods on new problems
+that are of interest to you.
+
+17
+00:01:08.300 --> 00:01:12.940
+And when we're thinking about this,
+we're going to be presenting concepts
+
+18
+00:01:12.940 --> 00:01:18.010
+at this very intuitive level that's
+grounded in these case studies.
+
+19
+00:01:18.010 --> 00:01:19.450
+So who might you be?
+
+20
+00:01:19.450 --> 00:01:21.830
+Well, when we're thinking
+about the target audience,
+
+21
+00:01:21.830 --> 00:01:26.370
+we're thinking about software engineers
+who are interested in machine learning.
+
+22
+00:01:26.370 --> 00:01:30.270
+We're thinking about scientists who
+might want to become data scientists.
+
+23
+00:01:30.270 --> 00:01:35.960
+And we're thinking about lots and lots and
+lots of other people who have some math,
+
+24
+00:01:35.960 --> 00:01:41.000
+some programming experience, and
+want to be able to analyze data and
+
+25
+00:01:41.000 --> 00:01:45.230
+do fun things with it, so just data
+enthusiasts who want to learn more about
+
+26
+00:01:45.230 --> 00:01:49.150
+machine learning and
+how to derive intelligence from data.
+
+27
+00:01:49.150 --> 00:01:49.890
+Okay.
+
+28
+00:01:49.890 --> 00:01:53.050
+So I said that we're assuming
+you have some math and
+
+29
+00:01:53.050 --> 00:01:58.020
+some programming background, so let's talk
+about this in a little bit more detail.
+
+30
+00:01:58.020 --> 00:01:59.500
+In terms of the math background,
+
+31
+00:01:59.500 --> 00:02:02.560
+we're assuming that you have
+some basic calculus knowledge.
+
+32
+00:02:02.560 --> 00:02:07.080
+So that's understanding
+the notion of derivatives and
+
+33
+00:02:07.080 --> 00:02:11.740
+how they're computed and
+basic linear algebra.
+
+34
+00:02:11.740 --> 00:02:16.780
+So you guys should know what a vector is,
+what a matrix is, and
+
+35
+00:02:16.780 --> 00:02:18.880
+how to multiply matrices.
+
+36
+00:02:18.880 --> 00:02:22.600
+But in these cases, we're really as
+
+37
+00:02:22.600 --> 00:02:26.630
+often as possible going to present
+things at the most intuitive level.
+
+38
+00:02:26.630 --> 00:02:30.640
+Even if we could write down an equation in
+terms of matrices and matrix multiplies,
+
+39
+00:02:30.640 --> 00:02:35.050
+we're going to try and add as many visual
+aids as possible to provide you with that
+
+40
+00:02:35.050 --> 00:02:39.010
+intuition, so that if you're only
+marginally comfortable with these ideas,
+
+41
+00:02:39.010 --> 00:02:42.370
+I do suggest that you go
+brush up on these concepts.
+
+42
+00:02:42.370 --> 00:02:43.590
+But, again, we're going to try and
+
+43
+00:02:43.590 --> 00:02:46.750
+provide the intuition that we
+described as part of our motto.
+
+44
+00:02:48.310 --> 00:02:52.405
+And in terms of programming experience,
+
+45
+00:02:52.405 --> 00:03:00.780
+in this specialization we're going to
+be using Basic Python for programing.
+
+46
+00:03:00.780 --> 00:03:04.730
+But if you're not familiar with Python,
+it would, of course,
+
+47
+00:03:04.730 --> 00:03:08.200
+be helpful if you were
+familiar with Basic Python.
+
+48
+00:03:08.200 --> 00:03:13.660
+But we think that you can pick up on
+the important tools that you'll need
+
+49
+00:03:13.660 --> 00:03:18.750
+if you have some other knowledge
+of some other language.
+
+50
+00:03:18.750 --> 00:03:20.280
+Okay.
+So finally,
+
+51
+00:03:20.280 --> 00:03:24.250
+what are your computing needs for
+this course?
+
+52
+00:03:24.250 --> 00:03:28.200
+Well, we're going to assume that you
+have some basic desktop or laptop or
+
+53
+00:03:28.200 --> 00:03:31.610
+access to one where you
+can access the Internet.
+
+54
+00:03:31.610 --> 00:03:36.120
+Of course, that's important so
+you can watch these lovely videos, but
+
+55
+00:03:36.120 --> 00:03:38.310
+beyond that so
+you can do your assignments.
+
+56
+00:03:38.310 --> 00:03:42.040
+And to do your assignments, you're
+going to need to be able to install and
+
+57
+00:03:42.040 --> 00:03:43.530
+run Python.
+
+58
+00:03:43.530 --> 00:03:45.600
+And in addition, you're going to be able,
+
+59
+00:03:45.600 --> 00:03:50.440
+you're going to have to be able
+to store a few gigabytes of data.
+
+60
+00:03:50.440 --> 00:03:51.070
+Okay.
+So
+
+61
+00:03:51.070 --> 00:03:55.530
+that basically summarizes what we have in
+mind for who this specialization is for.
+
+62
+00:03:55.530 --> 00:03:57.076
+And we hope that fits your case.
+
+63
+00:03:57.076 --> 00:04:01.229
+[MUSIC]

@@ -1,0 +1,481 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.997
+[MUSIC]
+
+2
+00:00:03.997 --> 00:00:05.170
+As Emily discussed,
+
+3
+00:00:05.170 --> 00:00:09.601
+we're gonna see machine learning through
+the lens of a wide range of case studies
+
+4
+00:00:09.601 --> 00:00:13.750
+in different areas that really
+ground the concepts behind them.
+
+5
+00:00:13.750 --> 00:00:17.810
+So, other machine learning classes
+that you might take out there
+
+6
+00:00:17.810 --> 00:00:21.180
+are really a laundry list
+of algorithms and methods.
+
+7
+00:00:21.180 --> 00:00:23.860
+So things like support vector machines and
+
+8
+00:00:23.860 --> 00:00:27.840
+kernels and logistic ration and
+networks and so on.
+
+9
+00:00:27.840 --> 00:00:30.360
+And they're just like,
+a laundry list of methods.
+
+10
+00:00:30.360 --> 00:00:34.750
+And the problem with that approach is that
+since you start from the algorithms you
+
+11
+00:00:34.750 --> 00:00:39.055
+end up with really simplistic
+use cases with the applications,
+
+12
+00:00:39.055 --> 00:00:41.515
+they're really disconnected from reality.
+
+13
+00:00:41.515 --> 00:00:44.785
+So, we're doing things very different
+in this specialization, and
+
+14
+00:00:44.785 --> 00:00:47.655
+we've done this for quite a while here.
+
+15
+00:00:47.655 --> 00:00:50.885
+Emily and I created a course at
+the University of Washington
+
+16
+00:00:50.885 --> 00:00:54.145
+on machine learning at scale for big data.
+
+17
+00:00:54.145 --> 00:00:58.785
+We pioneered this use case approach for
+teaching machine learning.
+
+18
+00:00:58.785 --> 00:01:03.160
+And in that course,
+we saw a lot of positive feedback
+
+19
+00:01:03.160 --> 00:01:06.410
+from folks really understanding
+rounding the concepts.
+
+20
+00:01:06.410 --> 00:01:10.680
+So we're going to start from
+the use cases in the first course.
+
+21
+00:01:10.680 --> 00:01:15.770
+And by starting from use cases, you're
+really going to be able to grasp the key
+
+22
+00:01:15.770 --> 00:01:21.950
+concepts and the techniques that allow
+you to build, measure the quality and
+
+23
+00:01:21.950 --> 00:01:25.690
+understand whether your intelligent
+applications is working well or not.
+
+24
+00:01:25.690 --> 00:01:29.760
+And in the end, you are going to build
+a bunch of these intelligent applications.
+
+25
+00:01:29.760 --> 00:01:32.330
+So to build such intelligent applications,
+
+26
+00:01:32.330 --> 00:01:34.970
+you typically have to think about
+what task am I going to do.
+
+27
+00:01:34.970 --> 00:01:40.212
+I am going to solve a sentiment
+analysis problem and what models, what
+
+28
+00:01:40.212 --> 00:01:44.765
+machine learning models am I going to use,
+and things like support vector machines or
+
+29
+00:01:44.765 --> 00:01:50.450
+regression what methods when they use to
+optimize the parameters of that model?
+
+30
+00:01:50.450 --> 00:01:54.230
+And then I ask a question like is this
+really providing the intelligence that I'm
+
+31
+00:01:54.230 --> 00:01:55.060
+hoping for?
+
+32
+00:01:55.060 --> 00:01:57.340
+How do we measure
+the quality of that system?
+
+33
+00:01:57.340 --> 00:02:02.340
+So in this specialization what
+we're gonna do is defer the core
+
+34
+00:02:02.340 --> 00:02:08.080
+pieces of how to describe a model and
+optimize it to the follow on courses.
+
+35
+00:02:08.080 --> 00:02:13.060
+And this first course is going to be
+focused on helping us figure out what
+
+36
+00:02:13.060 --> 00:02:16.250
+task we're trying to solve, what machine
+learning methods make sense, and
+
+37
+00:02:16.250 --> 00:02:17.480
+how to measure them.
+
+38
+00:02:17.480 --> 00:02:21.949
+And with that, using the algorithms as
+black boxes, we're going to be able to
+
+39
+00:02:21.949 --> 00:02:26.310
+build a wide range of really
+intelligent cool applications together.
+
+40
+00:02:26.310 --> 00:02:27.558
+And we'll actually code them and
+
+41
+00:02:27.558 --> 00:02:31.290
+build them and
+demonstrate them in a wide range of ways.
+
+42
+00:02:31.290 --> 00:02:32.890
+Now the following on courses, they're,
+
+43
+00:02:32.890 --> 00:02:35.760
+it's going to be four of
+those plus a capstone.
+
+44
+00:02:35.760 --> 00:02:37.820
+They really go into depth
+in different areas.
+
+45
+00:02:37.820 --> 00:02:42.400
+So let me give you a few quick examples
+of the kind of depth we're going to see
+
+46
+00:02:42.400 --> 00:02:44.080
+throughout this specialization.
+
+47
+00:02:44.080 --> 00:02:48.930
+So the regression course is going to
+talk about various models of predicting
+
+48
+00:02:48.930 --> 00:02:53.150
+a real value, so for example, a house
+price from the features of the house.
+
+49
+00:02:53.150 --> 00:02:55.830
+And we're going to discuss
+linear regression techniques,
+
+50
+00:02:55.830 --> 00:02:59.730
+we're going to discuss advanced techniques
+like ridge regression and lasso that allow
+
+51
+00:02:59.730 --> 00:03:03.720
+you to select what features are most
+appropriate for your problem.
+
+52
+00:03:03.720 --> 00:03:07.360
+We're going to talk about optimization
+techniques like gradient descent and
+
+53
+00:03:07.360 --> 00:03:11.020
+coordinate descent to optimize
+the parameters of those models.
+
+54
+00:03:11.020 --> 00:03:14.548
+As well as some key machine learning
+concepts like loss functions,
+
+55
+00:03:14.548 --> 00:03:16.840
+bias-variance tradeoffs, cross-validation.
+
+56
+00:03:16.840 --> 00:03:21.690
+Things that you need to know to really
+take this method and kind of improve them,
+
+57
+00:03:21.690 --> 00:03:24.050
+develop them and
+build applications with them.
+
+58
+00:03:25.240 --> 00:03:29.340
+The second course on classification,
+we're gonna build, for example,
+
+59
+00:03:29.340 --> 00:03:32.930
+the sentiment analysis use case
+that Emily talked about, and
+
+60
+00:03:32.930 --> 00:03:35.010
+talk about more of those classifications.
+
+61
+00:03:35.010 --> 00:03:39.437
+From linear classifiers to more
+advanced things like linear regression,
+
+62
+00:03:39.437 --> 00:03:43.330
+sorry, logistic regression,
+support vector machines.
+
+63
+00:03:43.330 --> 00:03:45.650
+But then add kernels and
+
+64
+00:03:45.650 --> 00:03:51.010
+decision trees which allow you to deal
+with non-linear complex features.
+
+65
+00:03:51.010 --> 00:03:55.250
+We talked about optimization methods for
+dealing with these techniques at scale and
+
+66
+00:03:55.250 --> 00:03:58.730
+for building ensembles of them
+something called boosting.
+
+67
+00:03:58.730 --> 00:04:03.820
+And then the underlying concepts in
+machine learning that really help
+
+68
+00:04:03.820 --> 00:04:08.920
+you grasp classifier and scaled it up and
+apply it to different methods.
+
+69
+00:04:10.860 --> 00:04:15.440
+Now, in the next course,
+we're gonna focus on clustering and
+
+70
+00:04:15.440 --> 00:04:17.440
+retrieval, especially in
+the context of documents.
+
+71
+00:04:17.440 --> 00:04:20.830
+So we're gonna talk about basic
+techniques like nearest neighbors
+
+72
+00:04:20.830 --> 00:04:24.870
+as well as more advanced clustering
+techniques, mixture of Gaussians, and even
+
+73
+00:04:24.870 --> 00:04:29.180
+latent Dirichlet allocation can advance
+text analysis clustering technique.
+
+74
+00:04:29.180 --> 00:04:32.910
+We're gonna talk about the algorithms
+that underpin these things and
+
+75
+00:04:32.910 --> 00:04:36.820
+how to scale them up with
+techniques like KD-trees and
+
+76
+00:04:36.820 --> 00:04:41.180
+sampling and expectation maximization.
+
+77
+00:04:41.180 --> 00:04:46.970
+Now the core concepts here are really
+around how to scale these things up,
+
+78
+00:04:46.970 --> 00:04:50.120
+how to measure the quality and
+really how to write them
+
+79
+00:04:50.120 --> 00:04:54.000
+as distributed algorithms using
+techniques like map-reduce,
+
+80
+00:04:54.000 --> 00:04:57.410
+which are implementing systems like
+Hadoop that you might have learned about.
+
+81
+00:04:57.410 --> 00:05:02.908
+So in the fourth course, you're actually
+going to write some map-reduce code for
+
+82
+00:05:02.908 --> 00:05:05.118
+distributed machine learning.
+
+83
+00:05:05.118 --> 00:05:09.627
+Now in the final technical course we're
+gonna focus on techniques of matrix
+
+84
+00:05:09.627 --> 00:05:14.348
+factorization and dimensionality
+reduction, which are widely applicable,
+
+85
+00:05:14.348 --> 00:05:19.020
+but in particular for recommender systems,
+for recommending products.
+
+86
+00:05:19.020 --> 00:05:20.890
+So these are things like
+collaborative filtering,
+
+87
+00:05:20.890 --> 00:05:25.840
+matrix factorization, PCA, and
+the underlying techniques for
+
+88
+00:05:25.840 --> 00:05:30.340
+optimizing them, like coordinate descent,
+Eigen decomposition, SVD.
+
+89
+00:05:30.340 --> 00:05:36.370
+And then, a wide variety of whole machine
+learning concepts that are really useful.
+
+90
+00:05:36.370 --> 00:05:38.290
+Especially in the recommenders' domain.
+
+91
+00:05:38.290 --> 00:05:43.240
+Like how to pick a diverse
+set of recommendations and
+
+92
+00:05:43.240 --> 00:05:45.270
+how to scale them up to large problems.
+
+93
+00:05:46.860 --> 00:05:50.080
+Now the capstone is going to be really
+exciting and towards the end of
+
+94
+00:05:50.080 --> 00:05:55.020
+this module, I'm going to go back and tell
+you quite a bit more about the capstone.
+
+95
+00:05:55.020 --> 00:05:58.160
+But just to give you a little hint,
+you're going to build
+
+96
+00:05:58.160 --> 00:06:02.640
+something extremely cool that you can show
+to all your friends, potential employers.
+
+97
+00:06:02.640 --> 00:06:05.711
+And you'll see that it can build
+a really smart intelligent
+
+98
+00:06:05.711 --> 00:06:08.908
+application around recommenders,
+the combined text data,
+
+99
+00:06:08.908 --> 00:06:13.221
+image data, sentiment analysis, deep
+learning, it's going to be really cool.
+
+100
+00:06:13.221 --> 00:06:17.049
+[MUSIC]

@@ -1,0 +1,312 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.067
+[MUSIC]
+
+2
+00:00:04.067 --> 00:00:09.395
+So next, we're going to inspect
+some columns of our data set.
+
+3
+00:00:09.395 --> 00:00:15.921
+So let me, let's inspect some
+
+4
+00:00:15.921 --> 00:00:21.195
+columns of the data set.
+
+5
+00:00:28.145 --> 00:00:30.310
+So let's take a look at it.
+
+6
+00:00:30.310 --> 00:00:34.950
+So if I type sf['Country'],
+
+7
+00:00:34.950 --> 00:00:38.950
+what it's gonna do is select
+a column country, and
+
+8
+00:00:38.950 --> 00:00:42.060
+since I don't do anything to it,
+I don't set it equal to anything.
+
+9
+00:00:42.060 --> 00:00:43.350
+It's just going to print it.
+
+10
+00:00:45.510 --> 00:00:49.580
+Now, it says United States,
+Canada, England, USA, Poland,
+
+11
+00:00:49.580 --> 00:00:51.930
+United States, Switzerland.
+
+12
+00:00:51.930 --> 00:00:54.630
+So, that's the whole column,
+but printed horizontally.
+
+13
+00:00:55.830 --> 00:00:57.683
+Now, let's look at another column.
+
+14
+00:00:57.683 --> 00:01:06.064
+So, for example,
+let's look at the column age, so, sf.age.
+
+15
+00:01:06.064 --> 00:01:08.095
+I'm just gonna look at it.
+
+16
+00:01:08.095 --> 00:01:12.650
+So I have, the column is 24,
+23, 22, 23, 23, 22, 25.
+
+17
+00:01:12.650 --> 00:01:16.110
+Same one we did a visualization up here.
+
+18
+00:01:16.110 --> 00:01:21.542
+Now we can take the same column sf.age and
+do some computations on it.
+
+19
+00:01:21.542 --> 00:01:26.776
+So if you type .mean, it's not
+saying that column is a mean column,
+
+20
+00:01:26.776 --> 00:01:31.210
+but actually computing
+the mean of that column.
+
+21
+00:01:31.210 --> 00:01:35.210
+Which, the mean age is 23.142857,
+and so on.
+
+22
+00:01:36.280 --> 00:01:39.976
+Now, we can compute, for
+example the max age.
+
+23
+00:01:39.976 --> 00:01:45.629
+So, as of age, and let's see max.
+
+24
+00:01:45.629 --> 00:01:52.310
+And again you get 25, that's maximum age.
+
+25
+00:01:53.550 --> 00:01:56.164
+Now, this is some prequel stuff,
+but let's do more.
+
+26
+00:01:56.164 --> 00:02:02.305
+Let's create new columns.
+
+27
+00:02:06.554 --> 00:02:10.316
+In our SFrame.
+
+28
+00:02:10.316 --> 00:02:16.670
+So, when you're doing machine learning,
+often taking columns
+
+29
+00:02:16.670 --> 00:02:20.910
+and transforming them, creating new ones,
+this is called feature engineering.
+
+30
+00:02:20.910 --> 00:02:22.412
+We will do a bunch of those.
+
+31
+00:02:22.412 --> 00:02:24.914
+I'm gonna do now,
+a creation of a new column.
+
+32
+00:02:24.914 --> 00:02:27.118
+So, let's go back and
+print the SFrame, and
+
+33
+00:02:27.118 --> 00:02:30.930
+you see that there's a First Name
+column and there's a Last Name column.
+
+34
+00:02:30.930 --> 00:02:31.887
+There's no full name column.
+
+35
+00:02:31.887 --> 00:02:34.951
+Let's say you want to create a new
+full name column, it's pretty easy.
+
+36
+00:02:34.951 --> 00:02:38.175
+I wanna say sf,
+our SFrame of Full Name, so
+
+37
+00:02:38.175 --> 00:02:41.590
+there's gonna be a column
+called Full Name.
+
+38
+00:02:42.930 --> 00:02:45.160
+And what is that column equal to?
+
+39
+00:02:45.160 --> 00:02:48.049
+Well, it's just a concatenation
+of first name and last name.
+
+40
+00:02:48.049 --> 00:02:52.302
+And in Python, it's really easy to take
+strings and concatenate them together.
+
+41
+00:02:52.302 --> 00:02:53.591
+All you have to do is put a plus sign.
+
+42
+00:02:53.591 --> 00:02:58.370
+So we can do sf['Full Name'] is gonna be
+
+43
+00:02:58.370 --> 00:03:03.814
+the First Name column, so ['First Name'],
+
+44
+00:03:03.814 --> 00:03:08.857
+and then I'm gonna put a space between it,
+so
+
+45
+00:03:08.857 --> 00:03:13.808
+plus the space, plus the last name column.
+
+46
+00:03:13.808 --> 00:03:18.410
+So, Last Name.
+
+47
+00:03:18.410 --> 00:03:19.850
+Now, this is pretty cool.
+
+48
+00:03:19.850 --> 00:03:21.980
+I just create a new feature, new column,
+
+49
+00:03:21.980 --> 00:03:25.310
+called full name which is just
+the first name space last name.
+
+50
+00:03:25.310 --> 00:03:27.840
+It's very easy to do
+these things in Python,
+
+51
+00:03:27.840 --> 00:03:29.590
+especially if you don't have typos.
+
+52
+00:03:29.590 --> 00:03:32.920
+I see that this is Fist Name
+instead of First Name.
+
+53
+00:03:32.920 --> 00:03:33.981
+So, and there you go.
+
+54
+00:03:33.981 --> 00:03:37.468
+So, now if you go back and
+show the SFrame again,
+
+55
+00:03:37.468 --> 00:03:43.380
+you'll see there is a new column called
+Full Name has been placed at the end.
+
+56
+00:03:43.380 --> 00:03:46.683
+So Bob Smith is the first full name there.
+
+57
+00:03:46.683 --> 00:03:49.830
+Now, you can do all sorts
+of interesting things.
+
+58
+00:03:49.830 --> 00:03:54.392
+So, for
+example you could take the age column and
+
+59
+00:03:54.392 --> 00:03:57.850
+I'm not gonna create a new problem.
+
+60
+00:03:57.850 --> 00:04:00.800
+I'm just gonna do add 2
+here to this age column.
+
+61
+00:04:00.800 --> 00:04:04.100
+And you'll see that it's just
+gonna add 2 to every element.
+
+62
+00:04:04.100 --> 00:04:06.030
+And so,
+you can do these kinds of operations.
+
+63
+00:04:06.030 --> 00:04:11.081
+For example, you can do age and
+
+64
+00:04:11.081 --> 00:04:18.010
+multiply it by the column age again.
+
+65
+00:04:18.010 --> 00:04:19.860
+Now what happens when you do that?
+
+66
+00:04:19.860 --> 00:04:20.580
+Age times age?
+
+67
+00:04:20.580 --> 00:04:23.262
+You're gonna get age
+squared in every element.
+
+68
+00:04:23.262 --> 00:04:25.653
+And you get 556, 529 and so on.
+
+69
+00:04:25.653 --> 00:04:29.679
+[MUSIC]

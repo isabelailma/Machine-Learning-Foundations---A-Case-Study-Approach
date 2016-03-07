@@ -1,0 +1,290 @@
+WEBVTT
+
+1
+00:00:00.463 --> 00:00:03.933
+[MUSIC]
+
+2
+00:00:03.933 --> 00:00:06.268
+I've been doing machine learning for
+a long time, and
+
+3
+00:00:06.268 --> 00:00:09.061
+it's a really exciting time to
+be doing machine learning today,
+
+4
+00:00:09.061 --> 00:00:12.020
+because we're really seeing
+a lot of impact from it.
+
+5
+00:00:12.020 --> 00:00:14.340
+But this is not how I
+started machine learning.
+
+6
+00:00:14.340 --> 00:00:16.440
+If you just talked to me a few years ago,
+
+7
+00:00:16.440 --> 00:00:19.380
+the way I thought about machine
+learning was quite different.
+
+8
+00:00:19.380 --> 00:00:22.340
+You started with some data sets,
+some data.
+
+9
+00:00:22.340 --> 00:00:26.920
+And you fed it to some magical
+machine learning algorithm and
+
+10
+00:00:26.920 --> 00:00:32.110
+then I just showed you that my curve
+was better than your curve and
+
+11
+00:00:32.110 --> 00:00:34.090
+then I wrote the paper to
+machine learning conference.
+
+12
+00:00:35.590 --> 00:00:37.900
+And that's how I always thought
+about machine learning.
+
+13
+00:00:37.900 --> 00:00:40.110
+But this is not why I got
+into the first place,
+
+14
+00:00:40.110 --> 00:00:41.970
+why did I get into machine learning?
+
+15
+00:00:41.970 --> 00:00:44.320
+Now when I was a kid I
+read a lot of books.
+
+16
+00:00:44.320 --> 00:00:45.110
+A lot of sci-fi.
+
+17
+00:00:45.110 --> 00:00:50.800
+You know I really wanted to build robots
+that were really intelligent that
+
+18
+00:00:50.800 --> 00:00:53.640
+really thought about the world and
+
+19
+00:00:53.640 --> 00:00:57.900
+reasoned about things, what I call
+today intelligent applications.
+
+20
+00:00:57.900 --> 00:01:02.490
+And the really cool and exciting thing
+is that today we're seeing a lot of
+
+21
+00:01:02.490 --> 00:01:07.020
+impact from intelligent applications,
+they're using machine learning.
+
+22
+00:01:07.020 --> 00:01:12.440
+In fact if you look at English
+industry successful companies today.
+
+23
+00:01:12.440 --> 00:01:16.720
+Companies that are called disruptive, they
+take a market and completely change it.
+
+24
+00:01:16.720 --> 00:01:21.153
+They're often differentiated
+by intelligent applications,
+
+25
+00:01:21.153 --> 00:01:25.630
+by intelligence that uses
+machine learning at its core.
+
+26
+00:01:25.630 --> 00:01:29.550
+So, for example, early days Amazon
+really disrupted the retail market
+
+27
+00:01:29.550 --> 00:01:32.670
+by bringing in product
+recommendations into their website.
+
+28
+00:01:32.670 --> 00:01:38.790
+We saw Google disrupting the advertising
+market by really targeting advertising
+
+29
+00:01:38.790 --> 00:01:44.020
+with machine learning to figure
+out what people would click on.
+
+30
+00:01:44.020 --> 00:01:48.300
+You saw Netflix,
+the movie distribution company,
+
+31
+00:01:48.300 --> 00:01:51.800
+really change how movies are seen.
+
+32
+00:01:51.800 --> 00:01:56.000
+Now we don't go to a shop and
+rent movies anymore.
+
+33
+00:01:56.000 --> 00:01:58.210
+We go to the web and we stream data.
+
+34
+00:01:58.210 --> 00:01:59.380
+Netflix really changed that.
+
+35
+00:01:59.380 --> 00:02:03.390
+And at the core there was a recommender
+system that helped me find the movies
+
+36
+00:02:03.390 --> 00:02:06.970
+that I liked, the movies that are good for
+me out of the many, many,
+
+37
+00:02:06.970 --> 00:02:10.480
+many thousands of movies
+they were serving.
+
+38
+00:02:10.480 --> 00:02:14.470
+You see companies like Pandora,
+where they're providing
+
+39
+00:02:14.470 --> 00:02:19.340
+a music recommendation system
+where I find music that I like.
+
+40
+00:02:19.340 --> 00:02:23.320
+And I find streams that are good for
+the morning when I'm sleepy or
+
+41
+00:02:23.320 --> 00:02:27.540
+at night when I'm ready to go to bed and
+I want to listen to different music.
+
+42
+00:02:27.540 --> 00:02:29.960
+And they really find good music for us.
+
+43
+00:02:29.960 --> 00:02:32.860
+And you see that in many places,
+in many industries,
+
+44
+00:02:32.860 --> 00:02:37.380
+you see Facebook connecting me with people
+who I might want to be friends with.
+
+45
+00:02:37.380 --> 00:02:42.280
+And you even see companies like Uber
+disrupting the taxi industry by really
+
+46
+00:02:42.280 --> 00:02:46.530
+optimizing how to connect drivers
+with people in real time.
+
+47
+00:02:46.530 --> 00:02:51.480
+So, in all these areas, machine learning
+is one of the core technologies,
+
+48
+00:02:51.480 --> 00:02:55.920
+the technology that makes that
+company's product really special.
+
+49
+00:02:55.920 --> 00:03:00.150
+So in this specialization, we're really
+going to talk about all aspects of machine
+
+50
+00:03:00.150 --> 00:03:04.528
+learning and get you ready to build
+intelligent applications just like that.
+
+51
+00:03:04.528 --> 00:03:07.770
+And we're gonna see a pipeline again,
+and again, and
+
+52
+00:03:07.770 --> 00:03:12.420
+again where we're gonna start from data
+and really bring in a machine learning
+
+53
+00:03:12.420 --> 00:03:16.370
+method that provides you with a new
+kind of analysis of the data.
+
+54
+00:03:16.370 --> 00:03:18.840
+And that analysis is gonna
+give you intelligence.
+
+55
+00:03:18.840 --> 00:03:23.580
+Intelligence like what product
+am I likely to buy right now?
+
+56
+00:03:23.580 --> 00:03:27.568
+And by taking this pipeline and working
+through it in a wide range of settings and
+
+57
+00:03:27.568 --> 00:03:31.855
+a wide range of applications, with a range
+of algorithms, but really understanding
+
+58
+00:03:31.855 --> 00:03:35.547
+how they connect together, you're
+gonna be able to really build smart,
+
+59
+00:03:35.547 --> 00:03:37.595
+intelligent applications of your own.
+
+60
+00:03:37.595 --> 00:03:38.095
+[MUSIC]

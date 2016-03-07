@@ -1,0 +1,362 @@
+WEBVTT
+
+1
+00:00:01.042 --> 00:00:03.827
+[MUSIC]
+
+2
+00:00:03.827 --> 00:00:06.544
+So that's how we do various
+transformations of our data.
+
+3
+00:00:06.544 --> 00:00:10.190
+But these are very simple
+mathematical operations.
+
+4
+00:00:10.190 --> 00:00:14.450
+Let's do an advanced data transformation.
+
+5
+00:00:14.450 --> 00:00:20.183
+So we're gonna use what's called
+
+6
+00:00:20.183 --> 00:00:26.112
+the apply function to do a kind of a,
+
+7
+00:00:26.112 --> 00:00:30.263
+let's call it a advanced
+
+8
+00:00:30.263 --> 00:00:35.220
+transformation of our data.
+
+9
+00:00:38.180 --> 00:00:41.286
+So this is going to be pretty cool.
+
+10
+00:00:41.286 --> 00:00:44.990
+So we're gonna use it to
+define a new function,
+
+11
+00:00:44.990 --> 00:00:46.910
+we're gonna do a bunch of things here.
+
+12
+00:00:46.910 --> 00:00:53.415
+So here's what I wanna do,
+we're gonna look at the column country.
+
+13
+00:00:53.415 --> 00:00:57.650
+Let's just say there's
+a little bug in my data set.
+
+14
+00:00:58.690 --> 00:01:01.100
+Some people's country United States.
+
+15
+00:01:01.100 --> 00:01:02.787
+And some people country is USA,
+
+16
+00:01:02.787 --> 00:01:06.850
+some people country is United States, so
+if you just view the [INAUDIBLE] model
+
+17
+00:01:06.850 --> 00:01:10.366
+they will think USA is a different
+country from the United States.
+
+18
+00:01:10.366 --> 00:01:12.120
+And you wanna make sure
+that it's the same country.
+
+19
+00:01:12.120 --> 00:01:17.681
+So I am gonna take everywhere it says USA
+and substitute that with United States.
+
+20
+00:01:17.681 --> 00:01:19.650
+So we get different counts.
+
+21
+00:01:19.650 --> 00:01:23.303
+So right now for example,
+
+22
+00:01:23.303 --> 00:01:27.570
+if I do sf of country dot show.
+
+23
+00:01:27.570 --> 00:01:33.154
+So if I just show that you will see
+that United States has two counts and
+
+24
+00:01:33.154 --> 00:01:36.190
+USA has one count over here.
+
+25
+00:01:36.190 --> 00:01:37.700
+And that's kind of a problematic thing.
+
+26
+00:01:38.880 --> 00:01:39.790
+So let's fix that.
+
+27
+00:01:41.460 --> 00:01:46.710
+So the first thing I'm gonna do
+is create the function that,
+
+28
+00:01:46.710 --> 00:01:53.380
+if the input is United States,
+USA would change to United States.
+
+29
+00:01:53.380 --> 00:01:55.610
+So let's define a function,
+
+30
+00:01:55.610 --> 00:02:01.135
+we talked about how to define a function
+I'm gonna call it transform_country.
+
+31
+00:02:02.630 --> 00:02:07.610
+And it takes me to import a country and
+
+32
+00:02:07.610 --> 00:02:11.970
+you put a colon in the end, press Enter
+and you have to align things vertically.
+
+33
+00:02:11.970 --> 00:02:19.200
+So it says,
+if the country is equal to USA,
+
+34
+00:02:19.200 --> 00:02:27.370
+then we're gonna return United States.
+
+35
+00:02:27.370 --> 00:02:31.100
+So this way we normalize the data.
+
+36
+00:02:31.100 --> 00:02:36.100
+Else, so if it's not United States,
+we don't do anything.
+
+37
+00:02:36.100 --> 00:02:38.741
+So we just return the country as it was.
+
+38
+00:02:38.741 --> 00:02:41.050
+So we created this function
+transform country, so
+
+39
+00:02:41.050 --> 00:02:42.940
+we can now execute that action.
+
+40
+00:02:42.940 --> 00:02:45.100
+So let me just show you
+what happens as an example.
+
+41
+00:02:45.100 --> 00:02:52.010
+So if I compute transform_country and
+give it input Brazil, it returns Brazil.
+
+42
+00:02:52.010 --> 00:02:52.930
+It doesn't do anything.
+
+43
+00:02:52.930 --> 00:02:57.650
+And in fact,
+[LAUGH] if I get it input Brasil.
+
+44
+00:02:57.650 --> 00:02:58.962
+We say Brasil.
+
+45
+00:02:58.962 --> 00:03:03.210
+And it has an S, not a Z,
+also returns with an S.
+
+46
+00:03:03.210 --> 00:03:06.747
+This is a normalize between
+the English version of Brazil and
+
+47
+00:03:06.747 --> 00:03:08.860
+the Portuguese version of Brasil.
+
+48
+00:03:08.860 --> 00:03:14.320
+But if you give as input,
+transfer country USA,
+
+49
+00:03:14.320 --> 00:03:16.800
+you'll see that it returns United States.
+
+50
+00:03:16.800 --> 00:03:19.370
+So it's gonna fix that kind of mistake.
+
+51
+00:03:19.370 --> 00:03:24.816
+Now, what I wanna do is go line
+by line in my data set and
+
+52
+00:03:24.816 --> 00:03:33.190
+whenever I see the word United States in
+the country column, I wanna change that.
+
+53
+00:03:33.190 --> 00:03:35.930
+So USA in the country column,
+it changed to United States.
+
+54
+00:03:35.930 --> 00:03:40.040
+So I wanna apply this transform_country
+to every row of the data.
+
+55
+00:03:40.040 --> 00:03:43.012
+And you could create a for loop,
+and that could be kind of annoying.
+
+56
+00:03:43.012 --> 00:03:45.276
+And this is where the apply
+function comes in.
+
+57
+00:03:45.276 --> 00:03:47.458
+So here's what I'm gonna do.
+
+58
+00:03:47.458 --> 00:03:52.880
+I'm going to run a function
+on the country column.
+
+59
+00:03:52.880 --> 00:03:58.007
+And what apply does it takes
+this function transform
+
+60
+00:03:58.007 --> 00:04:05.050
+country that we defined transform
+country and apply it row by row.
+
+61
+00:04:05.050 --> 00:04:07.100
+Let's see what the output would be.
+
+62
+00:04:07.100 --> 00:04:11.130
+So if I run it row by row it says,
+it prints some statistics, but
+
+63
+00:04:11.130 --> 00:04:15.010
+it says, United States, Canada, England,
+United States Poland, United States.
+
+64
+00:04:15.010 --> 00:04:17.900
+So all the USAs changed to United States.
+
+65
+00:04:17.900 --> 00:04:22.280
+And now, what I could do is say,
+I wanna take my country column,
+
+66
+00:04:24.410 --> 00:04:29.250
+and I'm gonna fix it by saying, take
+what it used to be, the country column,
+
+67
+00:04:30.420 --> 00:04:35.920
+and apply this transformation
+to every single line,
+
+68
+00:04:35.920 --> 00:04:38.720
+and just store it back
+into the country column.
+
+69
+00:04:38.720 --> 00:04:45.230
+And now, if you look at our SFrame,
+you'll see that you have United States.
+
+70
+00:04:45.230 --> 00:04:46.890
+No USA in this column.
+
+71
+00:04:48.705 --> 00:04:52.075
+Great.
+So we've seen how to create functions,
+
+72
+00:04:52.075 --> 00:04:55.055
+how to transform some columns,
+how to create new columns with SFrames.
+
+73
+00:04:55.055 --> 00:04:57.295
+and how to show our data.
+
+74
+00:04:57.295 --> 00:05:00.603
+Now, this tools GraphLab I'm creating
+in SFrame is what we're gonna be using
+
+75
+00:05:00.603 --> 00:05:03.155
+throughout this course.
+
+76
+00:05:03.155 --> 00:05:06.538
+And you will see many ways of applying it,
+and using it, and
+
+77
+00:05:06.538 --> 00:05:10.124
+it's gonna make it really easy
+to build some of the intelligent
+
+78
+00:05:10.124 --> 00:05:13.458
+applications that we're
+building in this first course.
+
+79
+00:05:13.458 --> 00:05:17.699
+[MUSIC]

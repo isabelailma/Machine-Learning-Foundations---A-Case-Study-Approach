@@ -1,0 +1,293 @@
+WEBVTT
+
+1
+00:00:00.025 --> 00:00:03.782
+[MUSIC]
+
+2
+00:00:03.782 --> 00:00:07.583
+So, now that we've took
+a quick look at the dataset,
+
+3
+00:00:07.583 --> 00:00:11.290
+let me show you something pretty cool.
+
+4
+00:00:11.290 --> 00:00:17.830
+So, let's introduce what's
+called the GraphLab Canvas.
+
+5
+00:00:19.830 --> 00:00:23.720
+So this kind of type or data, graph
+data takes an image data that we have.
+
+6
+00:00:23.720 --> 00:00:25.750
+There's many ways you can visualize it.
+
+7
+00:00:25.750 --> 00:00:29.990
+What we have inside GraphLab Create
+is a data visualization companion
+
+8
+00:00:29.990 --> 00:00:33.530
+that can be used to view
+the data in various ways.
+
+9
+00:00:33.530 --> 00:00:38.460
+So if you take any data
+structure that we play with,
+
+10
+00:00:38.460 --> 00:00:40.140
+any data structure GraphLab Create.
+
+11
+00:00:40.140 --> 00:00:42.433
+So Take any data structure,
+
+12
+00:00:46.237 --> 00:00:53.017
+In GraphLab Create and
+you type .show after it.
+
+13
+00:00:53.017 --> 00:00:56.568
+So if you type sf.show is going
+to start the GraphLab Canvas and
+
+14
+00:00:56.568 --> 00:01:00.990
+give you visualization,
+first visualization of the data structure.
+
+15
+00:01:00.990 --> 00:01:02.321
+In this case,
+we have a very simple dataset.
+
+16
+00:01:02.321 --> 00:01:07.100
+When I tab, it does show,
+it gives me a link here
+
+17
+00:01:07.100 --> 00:01:11.650
+to a new Web page that
+shows you that dataset.
+
+18
+00:01:11.650 --> 00:01:14.260
+So I'm gonna decrease
+the font size a little bit.
+
+19
+00:01:14.260 --> 00:01:18.370
+And you'll see that this
+dataset has four columns.
+
+20
+00:01:18.370 --> 00:01:21.300
+The First Name, Alex,
+Malcolm, Felix, and so on.
+
+21
+00:01:21.300 --> 00:01:21.812
+The Last Name.
+
+22
+00:01:21.812 --> 00:01:26.507
+The Country this person lives in and
+their age.
+
+23
+00:01:26.507 --> 00:01:30.984
+And you see that the max age is 25,
+the min age is 22,
+
+24
+00:01:30.984 --> 00:01:35.862
+the median age is 23 the mean
+age is 23.143 and so on.
+
+25
+00:01:35.862 --> 00:01:39.577
+And if you can click on tabular view,
+you can actually view the data.
+
+26
+00:01:39.577 --> 00:01:41.220
+And this is pretty cool.
+
+27
+00:01:41.220 --> 00:01:44.210
+If you have a million rows, it's
+really hard to actually view the data.
+
+28
+00:01:44.210 --> 00:01:47.412
+But this allows you to
+scroll through millions,
+
+29
+00:01:47.412 --> 00:01:51.721
+1 billion rows you could scroll
+through with this tabular view.
+
+30
+00:01:51.721 --> 00:01:56.200
+And now, if I click on any column,
+for example, the age column,
+
+31
+00:01:56.200 --> 00:02:02.000
+it's going to give me, sorry, I selected
+something here which was a little weird.
+
+32
+00:02:02.000 --> 00:02:06.210
+Let me just type reload because
+it did something funny.
+
+33
+00:02:06.210 --> 00:02:08.041
+A histogram, but if I type Categorical,
+
+34
+00:02:08.041 --> 00:02:10.041
+it's gonna sort it by
+the most common value.
+
+35
+00:02:10.041 --> 00:02:16.717
+You see that the most common Value Is
+a 23, there's 3 of these folks,
+
+36
+00:02:16.717 --> 00:02:21.220
+and so
+that's 42% of the data has age of 23.
+
+37
+00:02:21.220 --> 00:02:26.950
+So we can play with Canvas and visualize
+the data in various ways and get started.
+
+38
+00:02:28.000 --> 00:02:32.610
+Now for the notebooks that
+we're filming here, the Canvas
+
+39
+00:02:32.610 --> 00:02:37.210
+popping up in a new window like this
+makes it kind of awkward to go back and
+
+40
+00:02:37.210 --> 00:02:39.710
+forth when we're just filming.
+
+41
+00:02:39.710 --> 00:02:44.184
+So, instead of open as a new window,
+what I'm going to see is how to open
+
+42
+00:02:44.184 --> 00:02:48.690
+the Canvas or some of visualizations
+inside of the IPhython Notebook.
+
+43
+00:02:48.690 --> 00:02:55.483
+So, I'm going to call a command
+called graphlab.canvas.set_target,
+
+44
+00:02:55.483 --> 00:03:02.074
+and I'm gonna say that the target is
+the IPython Notebook, short ipynb.
+
+45
+00:03:02.074 --> 00:03:04.370
+And we're gonna do this again,
+and again, and again.
+
+46
+00:03:04.370 --> 00:03:08.930
+But what happens is now the visualizations
+that we do are all gonna target
+
+47
+00:03:08.930 --> 00:03:10.760
+this actual notebook.
+
+48
+00:03:10.760 --> 00:03:17.140
+So, let's visualize, again, the age
+column, but now inside our notebook.
+
+49
+00:03:17.140 --> 00:03:18.321
+So here's what we're gonna do,
+it's pretty cool.
+
+50
+00:03:18.321 --> 00:03:22.440
+We're gonna take this s frame,
+sf, and I'm gonna select.
+
+51
+00:03:22.440 --> 00:03:26.900
+The square brackets allows you to select
+a particular column or many columns.
+
+52
+00:03:26.900 --> 00:03:33.679
+So, I'm gonna select the column age,
+just one, and I'm gonna type .show on it.
+
+53
+00:03:33.679 --> 00:03:39.279
+And I'm gonna tell it that
+the view that I want is
+
+54
+00:03:39.279 --> 00:03:44.890
+that sorted Categorical
+view that we just saw.
+
+55
+00:03:44.890 --> 00:03:46.280
+So, here we go.
+
+56
+00:03:46.280 --> 00:03:50.540
+We just saw that 23 is
+the most common age.
+
+57
+00:03:50.540 --> 00:03:53.920
+People with 23 years of age,
+42% of the data.
+
+58
+00:03:53.920 --> 00:04:00.210
+So, now we see how to do a little bit
+of visualization using GraphLab Create.
+
+59
+00:04:00.210 --> 00:04:03.047
+We're gonna see several other
+visualizations within GraphLab and
+
+60
+00:04:03.047 --> 00:04:04.697
+within other tools during the course.
+
+61
+00:04:04.697 --> 00:04:09.379
+[MUSIC]

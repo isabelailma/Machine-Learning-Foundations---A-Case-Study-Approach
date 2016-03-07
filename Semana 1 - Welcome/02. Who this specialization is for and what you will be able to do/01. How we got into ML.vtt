@@ -1,0 +1,310 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.579
+[MUSIC]
+
+2
+00:00:03.579 --> 00:00:06.690
+So how did you get into machine learning?
+
+3
+00:00:06.690 --> 00:00:07.200
+>> It's interesting.
+
+4
+00:00:07.200 --> 00:00:09.310
+So as I talked about
+earlier in the module,
+
+5
+00:00:09.310 --> 00:00:12.480
+I started because I really
+cared about robots.
+
+6
+00:00:12.480 --> 00:00:14.400
+I really wanted to build robots,
+and I thought okay,
+
+7
+00:00:14.400 --> 00:00:17.100
+the way to build robots is to
+do mechanical engineering.
+
+8
+00:00:17.100 --> 00:00:20.340
+So I started mechanical engineering, and
+then I realized the hard thing about
+
+9
+00:00:20.340 --> 00:00:24.080
+building robots is the robot brains, and
+that took me to computer science, and
+
+10
+00:00:24.080 --> 00:00:27.428
+then I realized the hard part of
+the AI was understanding data and
+
+11
+00:00:27.428 --> 00:00:31.088
+they got me into machine learning so
+I did my PhD in machine learning.
+
+12
+00:00:31.088 --> 00:00:33.770
+So that's the journey from
+thinking about robots,
+
+13
+00:00:33.770 --> 00:00:38.130
+all the way to becoming somebody excited
+about data and about machine learning.
+
+14
+00:00:38.130 --> 00:00:40.650
+So how about you?
+
+15
+00:00:40.650 --> 00:00:41.770
+>> Similar but different journey.
+
+16
+00:00:41.770 --> 00:00:47.740
+I wasn't sitting there reading Issac
+Asimov making these lifetime aspirations
+
+17
+00:00:47.740 --> 00:00:51.080
+to build robots, but eventually I
+actually was working with robots.
+
+18
+00:00:52.080 --> 00:00:55.310
+But the thing that really got me
+into machine learning is I was
+
+19
+00:00:55.310 --> 00:00:59.070
+looking on this target tracking
+application where they're
+
+20
+00:00:59.070 --> 00:01:04.290
+trying to track these really highly
+evasive vehicles like a plane.
+
+21
+00:01:04.290 --> 00:01:09.060
+So a plane is flying and make some
+maneuver to try and avoid being tracked.
+
+22
+00:01:09.060 --> 00:01:12.440
+But the issue is that
+the systems were really,
+
+23
+00:01:12.440 --> 00:01:17.530
+really highly engineered to assuming that
+you knew the physics of this airplane,
+
+24
+00:01:17.530 --> 00:01:21.290
+that you knew that it was gonna do some
+kind of turn right maneuver and turn left.
+
+25
+00:01:21.290 --> 00:01:26.070
+And this is how the physics are when
+the plane is flying straight or
+
+26
+00:01:26.070 --> 00:01:27.200
+landing or things like this.
+
+27
+00:01:27.200 --> 00:01:33.130
+And so you would build these models that
+were known based on physics of the system.
+
+28
+00:01:33.130 --> 00:01:34.440
+All these different modes but
+
+29
+00:01:34.440 --> 00:01:38.600
+what would happen is the thing would do
+something that we hadn't seen before and
+
+30
+00:01:38.600 --> 00:01:42.040
+the system would try to accommodate for
+it by saying, oh well,
+
+31
+00:01:42.040 --> 00:01:45.320
+it's just rapidly switching between turn
+right, turn left, turn right, turn left.
+
+32
+00:01:45.320 --> 00:01:47.880
+But, of course, that didn't actually
+describe what was going on, so
+
+33
+00:01:47.880 --> 00:01:52.560
+I thought there must be some better
+way to actually learn the parameters
+
+34
+00:01:52.560 --> 00:01:57.190
+of the models that we are trying
+to deploy And somehow capture
+
+35
+00:01:57.190 --> 00:02:02.440
+uncertainty about how much we actually
+believe in the model that we specified,
+
+36
+00:02:02.440 --> 00:02:05.650
+to be a bit more robust to
+these types of situations.
+
+37
+00:02:05.650 --> 00:02:08.670
+So, that's what got me into
+machine learning and statistics.
+
+38
+00:02:09.750 --> 00:02:13.270
+>> Right, so as you can see,
+I came from mechanical engineering and
+
+39
+00:02:13.270 --> 00:02:15.200
+got into data and to machine learning.
+
+40
+00:02:15.200 --> 00:02:17.930
+Came from electrical engineering and
+tracking planes and
+
+41
+00:02:17.930 --> 00:02:19.580
+got into machine learning.
+
+42
+00:02:19.580 --> 00:02:23.370
+But today, it's really exciting because
+we see people from all sorts of fields
+
+43
+00:02:23.370 --> 00:02:24.190
+get in to machine learning.
+
+44
+00:02:24.190 --> 00:02:27.210
+We see physicists excited about data.
+
+45
+00:02:27.210 --> 00:02:29.630
+We see people in biology.
+
+46
+00:02:29.630 --> 00:02:32.700
+>> Social sciences, philosophy.
+
+47
+00:02:32.700 --> 00:02:36.839
+>> All sorts of place, math,
+we do self statistics,
+
+48
+00:02:36.839 --> 00:02:39.350
+we do science, all the
+>> Art.
+
+49
+00:02:39.350 --> 00:02:40.670
+You always like to mention art.
+
+50
+00:02:40.670 --> 00:02:42.410
+>> Oh, yeah.
+When I talked at Carnegie Mellon
+
+51
+00:02:42.410 --> 00:02:45.220
+there were some art students that
+took my machine learning class.
+
+52
+00:02:45.220 --> 00:02:49.020
+And did really cool art installations
+that use machine learning inside them,
+
+53
+00:02:49.020 --> 00:02:50.410
+which is really quite amazing.
+
+54
+00:02:50.410 --> 00:02:54.040
+We even taught a class
+there with my friend
+
+55
+00:02:54.040 --> 00:02:56.620
+on building art installations
+that use machine language.
+
+56
+00:02:56.620 --> 00:03:00.960
+So we see a variety of people with
+different backgrounds, staging the lives,
+
+57
+00:03:00.960 --> 00:03:03.466
+thinking about data science,
+thinking about machine learning and
+
+58
+00:03:03.466 --> 00:03:05.930
+building intelligent applications and
+they all have a passion for data.
+
+59
+00:03:05.930 --> 00:03:07.640
+Which is cool.
+
+60
+00:03:08.740 --> 00:03:11.979
+>> It is cool, that's how we're
+gonna end every one of these chats.
+
+61
+00:03:11.979 --> 00:03:12.735
+That's cool.
+
+62
+00:03:12.735 --> 00:03:13.536
+It is cool.
+
+63
+00:03:13.536 --> 00:03:14.371
+>> It is cool.
+
+64
+00:03:14.371 --> 00:03:17.693
+[LAUGH]
+>> See you next chat.
+
+65
+00:03:17.693 --> 00:03:19.539
+>> Cool [LAUGH]
+
+66
+00:03:19.539 --> 00:03:23.754
+[MUSIC]

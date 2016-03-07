@@ -1,0 +1,471 @@
+WEBVTT
+
+1
+00:00:00.043 --> 00:00:03.783
+[MUSIC].
+
+2
+00:00:03.783 --> 00:00:04.910
+So, we've done those things.
+
+3
+00:00:04.910 --> 00:00:07.428
+I'm gonna go continue editing,
+so I double click again.
+
+4
+00:00:07.428 --> 00:00:13.154
+And now next, what we're gonna do is
+
+5
+00:00:13.154 --> 00:00:18.531
+create some variables in Python.
+
+6
+00:00:18.531 --> 00:00:22.970
+Shift-enter, and
+now we're back to the next cell.
+
+7
+00:00:22.970 --> 00:00:28.000
+Now, Python is a scripting
+programming language, just like many
+
+8
+00:00:28.000 --> 00:00:32.520
+other scripting language out there, which
+makes it really easy to prototype things.
+
+9
+00:00:32.520 --> 00:00:36.507
+And we will also see today some machinery
+tools that make it easy to run machinery
+
+10
+00:00:36.507 --> 00:00:40.631
+algorithms at scale, even within the
+simple programming language like Python.
+
+11
+00:00:40.631 --> 00:00:43.685
+But for now, let's just start with
+the simple programming language.
+
+12
+00:00:43.685 --> 00:00:49.050
+So, Python is a scripting language, and
+you can create variables as you go.
+
+13
+00:00:49.050 --> 00:00:52.770
+You don't have to declare them formally,
+and you don't have to declare their types.
+
+14
+00:00:52.770 --> 00:00:57.920
+So for example, if I say, I = 4,
+
+15
+00:00:57.920 --> 00:01:03.970
+what I get out of this is
+an integer as we will see.
+
+16
+00:01:03.970 --> 00:01:06.300
+So, comments in Python can
+be done in various ways.
+
+17
+00:01:06.300 --> 00:01:10.955
+So for example,
+I can put just a pound sign here,
+
+18
+00:01:10.955 --> 00:01:16.540
+#int, and just to tell me that i
+that I just created is an integer.
+
+19
+00:01:16.540 --> 00:01:20.240
+And in fact, you can type type(i),
+and it will print its type,
+
+20
+00:01:20.240 --> 00:01:21.610
+and you'll see that you have an int.
+
+21
+00:01:22.910 --> 00:01:26.030
+Now, I can just create a new variable.
+
+22
+00:01:26.030 --> 00:01:31.030
+Let's call it f = 4.1 and
+now f is gonna be a float.
+
+23
+00:01:31.030 --> 00:01:38.700
+So, the type of f is float.
+
+24
+00:01:38.700 --> 00:01:40.950
+You can make integers,
+you can make floats,
+
+25
+00:01:40.950 --> 00:01:43.020
+you can also make all sorts
+of other types of variables.
+
+26
+00:01:43.020 --> 00:01:47.804
+So, for example,
+
+27
+00:01:47.804 --> 00:01:56.780
+b = true makes a Boolean variable.
+
+28
+00:01:56.780 --> 00:02:00.199
+Whoa, I can't spell variable.
+
+29
+00:02:00.199 --> 00:02:04.710
+And if I say, for example, s =,
+I said single quotes can be strings,
+
+30
+00:02:04.710 --> 00:02:09.091
+also double-quotes can be strings,
+so let's say double quotes.
+
+31
+00:02:09.091 --> 00:02:11.440
+This is the string.
+
+32
+00:02:13.340 --> 00:02:16.170
+Shift enter, we now have a string.
+
+33
+00:02:16.170 --> 00:02:20.680
+So for example, if I print s,
+I have a string.
+
+34
+00:02:22.230 --> 00:02:25.240
+Now this is the basic Python types.
+
+35
+00:02:25.240 --> 00:02:29.180
+Now, let's look at some
+more advanced Python types.
+
+36
+00:02:29.180 --> 00:02:35.130
+So I told you how to create a text
+cell by going to the cell menu,
+
+37
+00:02:36.320 --> 00:02:40.580
+and going to Cell Type,
+and clicking on Markdown.
+
+38
+00:02:40.580 --> 00:02:41.540
+Another way they can do it,
+
+39
+00:02:41.540 --> 00:02:46.540
+if I'm in a cell I can hit Esc m,
+and it creates a markdown cell.
+
+40
+00:02:46.540 --> 00:02:47.899
+I had to press enter to edit it.
+
+41
+00:02:48.900 --> 00:02:52.520
+So now that we've talked
+about basic types,
+
+42
+00:02:52.520 --> 00:02:56.940
+let's talk about some
+advanced Python types.
+
+43
+00:03:00.410 --> 00:03:03.470
+So what are some common
+advanced Python types?
+
+44
+00:03:03.470 --> 00:03:07.720
+Okay, so
+most common one is what's called a list.
+
+45
+00:03:07.720 --> 00:03:14.770
+So let's say l is a list for example,
+3, 1, 2, just a list of numbers,
+
+46
+00:03:14.770 --> 00:03:18.450
+integers, floats, strings,
+anything can be formed into lists.
+
+47
+00:03:18.450 --> 00:03:23.870
+In fact, Python loves lists so
+if you, and you can print it.
+
+48
+00:03:23.870 --> 00:03:26.340
+Print L.
+You'll see that we get a list back.
+
+49
+00:03:27.490 --> 00:03:29.520
+So this type here is called a list.
+
+50
+00:03:30.980 --> 00:03:34.870
+Now, you can also have other types
+which are called dictionaries.
+
+51
+00:03:34.870 --> 00:03:38.860
+Dictionaries are, you can think about
+it kind of like hash tables with keys.
+
+52
+00:03:38.860 --> 00:03:40.550
+So, for example there's a dictionary.
+
+53
+00:03:41.720 --> 00:03:46.060
+We can have let's say two
+entries in the dictionary,
+
+54
+00:03:46.060 --> 00:03:50.930
+maybe foo, we'll put foo,
+
+55
+00:03:50.930 --> 00:03:55.530
+is the name of the entry,
+:1, so the entry is one.
+
+56
+00:03:55.530 --> 00:03:59.110
+Comma, I'm gonna create another entry.
+
+57
+00:03:59.110 --> 00:03:59.870
+Say, bar.
+
+58
+00:04:01.680 --> 00:04:05.636
+And then let's say that takes value 2.3,
+so that's a float.
+
+59
+00:04:05.636 --> 00:04:10.264
+And we can take another entry,
+
+60
+00:04:10.264 --> 00:04:13.468
+let's call that S and
+
+61
+00:04:13.468 --> 00:04:18.639
+the entry is my first dictionary.
+
+62
+00:04:18.639 --> 00:04:24.210
+And now we've create a dictionary with
+three fields with different types.
+
+63
+00:04:24.210 --> 00:04:29.020
+So for example, if you just print d,
+
+64
+00:04:29.020 --> 00:04:31.670
+you'll see the dictionary
+box that created.
+
+65
+00:04:31.670 --> 00:04:34.860
+Not that the elements aren't in the same
+order because they're unordered inside
+
+66
+00:04:34.860 --> 00:04:35.890
+the dictionary.
+
+67
+00:04:35.890 --> 00:04:42.340
+I can access an element so for
+example, if I print d['foo'],
+
+68
+00:04:42.340 --> 00:04:46.100
+you'll see that get's value 1.
+
+69
+00:04:46.100 --> 00:04:47.400
+Dictionary is extremely useful.
+
+70
+00:04:48.790 --> 00:04:53.000
+So now we talked about
+listen dictionaries.
+
+71
+00:04:53.000 --> 00:04:53.970
+One last thing,
+
+72
+00:04:53.970 --> 00:05:00.250
+that it's important to note is that
+Python's note type is called none.
+
+73
+00:05:00.250 --> 00:05:04.535
+So, for example if we say, n is equal to,
+
+74
+00:05:04.535 --> 00:05:08.440
+oops, I pressed enter too quickly,
+sorry about that.
+
+75
+00:05:08.440 --> 00:05:15.270
+If we say n is equal to none,
+we now have something that has a NoneType.
+
+76
+00:05:15.270 --> 00:05:20.490
+So type of n is NoneType.
+
+77
+00:05:20.490 --> 00:05:24.790
+So those are the more advanced types
+in Python and let's talk about
+
+78
+00:05:25.810 --> 00:05:32.800
+little bit of ways we can print
+more advanced printing and typing.
+
+79
+00:05:32.800 --> 00:05:37.820
+And then we're going to go into loops,
+conditional statements, and
+
+80
+00:05:37.820 --> 00:05:38.720
+defining functions.
+
+81
+00:05:39.730 --> 00:05:45.616
+So let's start with slightly
+more advanced printing so
+
+82
+00:05:45.616 --> 00:05:51.392
+I'm going to press ESC M and
+write Advanced printing.
+
+83
+00:05:51.392 --> 00:05:53.529
+And so that's what we're doing now,
+and now,
+
+84
+00:05:53.529 --> 00:05:55.513
+it's not just printing a single variable.
+
+85
+00:05:55.513 --> 00:06:01.120
+I'm gonna print the string
+where you're gonna
+
+86
+00:06:01.120 --> 00:06:06.585
+insert some variables in it,
+so for example,
+
+87
+00:06:06.585 --> 00:06:12.905
+I'm gonna print the string,
+our float value is %s.
+
+88
+00:06:12.905 --> 00:06:14.669
+So that's when I insert,
+
+89
+00:06:14.669 --> 00:06:19.892
+we're gonna later on insert the variable
+F that we defined above in that %s.
+
+90
+00:06:19.892 --> 00:06:24.527
+And we're gonna say
+
+91
+00:06:24.527 --> 00:06:29.445
+our int value is %s.
+
+92
+00:06:29.445 --> 00:06:34.000
+And now inserting, you just put
+a percent at the end of the string.
+
+93
+00:06:34.000 --> 00:06:37.820
+And we're gonna insert f and i.
+
+94
+00:06:37.820 --> 00:06:42.580
+So this is what this parenthesis,
+it's called a tuple, inserts f, here,
+
+95
+00:06:44.270 --> 00:06:49.100
+this f in the first percent s and
+the i in the second percent s.
+
+96
+00:06:49.100 --> 00:06:54.800
+So, if I just you see that our float value
+is 5.1, and our integer value was 4.
+
+97
+00:06:54.800 --> 00:06:59.280
+And you can do all sorts of more
+advanced string transformations,
+
+98
+00:06:59.280 --> 00:07:02.030
+which you should go explore on your own,
+
+99
+00:07:02.030 --> 00:07:06.590
+cuz it's extremely fun, and
+we really benefit from using Python.
+
+100
+00:07:06.590 --> 00:07:10.460
+It's really a simple, easy to prototype,
+fun programming language.
+
+101
+00:07:10.460 --> 00:07:11.269
+I really love it.
+
+102
+00:07:11.269 --> 00:07:15.279
+[MUSIC].

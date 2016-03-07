@@ -1,0 +1,440 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.238
+[MUSIC]
+
+2
+00:00:04.238 --> 00:00:07.688
+>> Today we're going to talk about
+two really exciting tools for
+
+3
+00:00:07.688 --> 00:00:12.680
+programming machine learning algorithms,
+and also useful in data science.
+
+4
+00:00:12.680 --> 00:00:14.830
+One is the Python programming language,
+and
+
+5
+00:00:14.830 --> 00:00:17.470
+the other one is what's
+called the iPython Notebook.
+
+6
+00:00:17.470 --> 00:00:22.230
+At this point, I'll assume that you have
+already installed Python in your system.
+
+7
+00:00:22.230 --> 00:00:24.770
+You've gone through those
+steps of installation.
+
+8
+00:00:24.770 --> 00:00:28.770
+And now I'm just gonna go over
+a few tips to get started.
+
+9
+00:00:28.770 --> 00:00:33.760
+There's lots and lots of resources
+available online for you to explore and
+
+10
+00:00:33.760 --> 00:00:36.500
+familiarize yourself with all
+the techniques that you need to do.
+
+11
+00:00:36.500 --> 00:00:39.110
+But really, I think it would be fun for
+us to go over this together,
+
+12
+00:00:39.110 --> 00:00:41.780
+since this is a really,
+really useful tool.
+
+13
+00:00:41.780 --> 00:00:45.000
+And something that makes
+a tremendous difference in practice.
+
+14
+00:00:45.000 --> 00:00:48.150
+When you first call iPython Notebook,
+you are faced with something like this.
+
+15
+00:00:48.150 --> 00:00:50.440
+It's basically a version
+of your directory,
+
+16
+00:00:50.440 --> 00:00:53.260
+with all the files in the directory.
+
+17
+00:00:53.260 --> 00:00:56.300
+There's some data files that I have,
+as well as some
+
+18
+00:00:56.300 --> 00:01:00.920
+iPython Notebooks I have created
+earlier and some other data net file.
+
+19
+00:01:00.920 --> 00:01:03.110
+This is more like a file browser.
+
+20
+00:01:03.110 --> 00:01:06.280
+So what we're gonna do is
+start a whole new notebook.
+
+21
+00:01:07.330 --> 00:01:10.230
+So I am gonna go New, Python 2,
+
+22
+00:01:10.230 --> 00:01:13.820
+since we're gonna have a notebook
+that is a Python notebook.
+
+23
+00:01:13.820 --> 00:01:16.000
+And welcome this is iPython notebook.
+
+24
+00:01:16.000 --> 00:01:16.970
+This store is gonna run for
+
+25
+00:01:16.970 --> 00:01:22.000
+a few years now and has really changed
+how we build machine learning and
+
+26
+00:01:22.000 --> 00:01:27.335
+data science algorithms and
+how we communicate with others.
+
+27
+00:01:27.335 --> 00:01:28.890
+It's a really useful tool.
+
+28
+00:01:28.890 --> 00:01:32.080
+It blends two things that I love, Python,
+
+29
+00:01:32.080 --> 00:01:35.770
+a simple scripting programming
+language with Wiki pages,
+
+30
+00:01:35.770 --> 00:01:38.440
+things which make it reasonably
+easy to communicate with others.
+
+31
+00:01:38.440 --> 00:01:42.230
+So, Python plus Wiki pages
+is the iPython notebook.
+
+32
+00:01:42.230 --> 00:01:45.810
+So today I'm gonna both show
+you the iPython Notebook and
+
+33
+00:01:45.810 --> 00:01:49.650
+also gonna show you some tips and
+tricks in Python just to get started,
+
+34
+00:01:49.650 --> 00:01:53.430
+assuming that you can program in Python or
+in other programming languages.
+
+35
+00:01:53.430 --> 00:01:57.830
+So you've run IPython Notebook and
+you started a fresh new one.
+
+36
+00:01:57.830 --> 00:01:59.710
+Let me just walk you over the interface.
+
+37
+00:02:00.720 --> 00:02:03.810
+So at the very top here is
+the title of the notebook.
+
+38
+00:02:03.810 --> 00:02:06.350
+And we're going to change
+it to something else.
+
+39
+00:02:06.350 --> 00:02:11.978
+So I'm going to change
+it to Getting Started
+
+40
+00:02:11.978 --> 00:02:19.549
+with iPython Notebook.
+
+41
+00:02:21.270 --> 00:02:21.840
+And there you go.
+
+42
+00:02:21.840 --> 00:02:25.260
+We have a new notebook,
+and that's the title.
+
+43
+00:02:25.260 --> 00:02:29.120
+And so this notebook is kind
+of like a console for Python.
+
+44
+00:02:29.120 --> 00:02:33.450
+But also it allows you to save the pages
+that you generate, and include text and
+
+45
+00:02:33.450 --> 00:02:34.180
+images in that.
+
+46
+00:02:34.180 --> 00:02:36.660
+And we're gonna play with all
+of that during this course,
+
+47
+00:02:36.660 --> 00:02:38.340
+because it's really useful.
+
+48
+00:02:38.340 --> 00:02:41.380
+It has a menu here that
+allows you to do things like
+
+49
+00:02:41.380 --> 00:02:45.685
+save the file that you have and
+load a new one, edit, copy,
+
+50
+00:02:45.685 --> 00:02:49.760
+add new cells, and
+we're gonna talk about those soon.
+
+51
+00:02:49.760 --> 00:02:51.140
+But let's just get started.
+
+52
+00:02:51.140 --> 00:02:52.660
+So let's get started with Python.
+
+53
+00:02:52.660 --> 00:02:56.720
+I want to click on one of the cells, which
+is kind of like an entry in a console.
+
+54
+00:02:56.720 --> 00:02:59.700
+And I'm going to type my
+first Python function.
+
+55
+00:02:59.700 --> 00:03:02.050
+So the first function I'm
+going to do is just print.
+
+56
+00:03:02.050 --> 00:03:06.820
+So I'm going to print a string and
+strings in Python can be single quotes or
+
+57
+00:03:06.820 --> 00:03:07.980
+double quotes, is up to you.
+
+58
+00:03:07.980 --> 00:03:13.750
+And the string I'm going to
+print is the famous hello world.
+
+59
+00:03:15.280 --> 00:03:20.150
+And when I press Shift-Enter,
+it executes a cell so
+
+60
+00:03:20.150 --> 00:03:22.050
+you have to remember to press Shift-Enter.
+
+61
+00:03:22.050 --> 00:03:24.040
+We'll talk about pressing
+just Enter in a second.
+
+62
+00:03:26.110 --> 00:03:28.320
+And after executing, it says Hello World.
+
+63
+00:03:29.980 --> 00:03:35.630
+So now,
+let's take a ride on iPython Notebook and
+
+64
+00:03:35.630 --> 00:03:41.800
+some of the Python functions that we're
+interested in using during these courses.
+
+65
+00:03:41.800 --> 00:03:46.590
+So the first piece of iPython Notebook
+is that you can include text, and
+
+66
+00:03:46.590 --> 00:03:51.180
+really well-formatted text, so
+there's two ways of accessing text cells.
+
+67
+00:03:51.180 --> 00:03:56.862
+So the first one is to
+go over here to cell,
+
+68
+00:03:56.862 --> 00:04:00.950
+cell type and call it markdown.
+
+69
+00:04:00.950 --> 00:04:02.930
+And then you click on it and
+you can start writing.
+
+70
+00:04:02.930 --> 00:04:05.630
+And it's really a mark down
+language kind of like Wikipages.
+
+71
+00:04:05.630 --> 00:04:09.976
+So if I put a pound here,
+I can do a header,
+
+72
+00:04:09.976 --> 00:04:14.370
+#Getting started with Python.
+
+73
+00:04:17.420 --> 00:04:19.470
+Oops.
+And now instead of pressing Shift+Enter,
+
+74
+00:04:19.470 --> 00:04:22.400
+we press regular Enter,
+it gives you a multiline cell.
+
+75
+00:04:22.400 --> 00:04:23.450
+So Enter.
+
+76
+00:04:23.450 --> 00:04:25.050
+Let's get started with Python.
+
+77
+00:04:25.050 --> 00:04:27.412
+And let's do a sub-header now.
+
+78
+00:04:27.412 --> 00:04:31.318
+The first thing we're gonna assume
+is what you have done so far.
+
+79
+00:04:31.318 --> 00:04:38.251
+So we have done the following.
+
+80
+00:04:38.251 --> 00:04:40.360
+So just press enter.
+
+81
+00:04:40.360 --> 00:04:41.030
+Here's a list.
+
+82
+00:04:41.030 --> 00:04:45.094
+We've done, we've installed Python,
+
+83
+00:04:45.094 --> 00:04:49.936
+the Python programming language.
+
+84
+00:04:49.936 --> 00:04:54.906
+We've started
+
+85
+00:04:54.906 --> 00:05:01.413
+iPython Notebook.
+
+86
+00:05:01.413 --> 00:05:02.810
+And okay.
+
+87
+00:05:02.810 --> 00:05:04.650
+So that did not work so well.
+
+88
+00:05:04.650 --> 00:05:06.510
+Okay.
+I executed it, it's not quite right.
+
+89
+00:05:06.510 --> 00:05:09.920
+Let me see what I forgot, so
+I can double-click on it and edit.
+
+90
+00:05:09.920 --> 00:05:11.910
+I forgot to put a space here.
+
+91
+00:05:11.910 --> 00:05:14.920
+So Space between the different lines.
+
+92
+00:05:14.920 --> 00:05:16.240
+So we install iPython, and
+
+93
+00:05:16.240 --> 00:05:19.250
+we start the iPython Notebook,
+this is what we have done so far.
+
+94
+00:05:21.070 --> 00:05:26.044
+And now if I press Shift + Enter,
+and you can see now we have a list.
+
+95
+00:05:26.044 --> 00:05:30.299
+[MUSIC]

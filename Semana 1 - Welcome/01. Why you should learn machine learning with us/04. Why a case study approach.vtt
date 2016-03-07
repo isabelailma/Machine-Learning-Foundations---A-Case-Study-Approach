@@ -1,0 +1,580 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.351
+[MUSIC]
+
+2
+00:00:04.351 --> 00:00:08.799
+So the way we're gonna learn about this
+data to intelligence pipeline is by
+
+3
+00:00:08.799 --> 00:00:13.246
+examining a number of case studies that
+are gonna ground the methods that we
+
+4
+00:00:13.246 --> 00:00:15.890
+present in real world applications.
+
+5
+00:00:15.890 --> 00:00:18.570
+And that's one of the really
+unique features of this course.
+
+6
+00:00:19.630 --> 00:00:23.920
+In our first case study, we're gonna
+look at predicting house values.
+
+7
+00:00:23.920 --> 00:00:27.030
+So, the intelligence we're deriving
+
+8
+00:00:27.030 --> 00:00:30.990
+is a value associated with some
+house that's not on the market.
+
+9
+00:00:30.990 --> 00:00:34.140
+So, we don't know what it's value is and
+we wanna learn that from data.
+
+10
+00:00:35.340 --> 00:00:36.470
+And what's our data?
+
+11
+00:00:36.470 --> 00:00:40.610
+Well in this case, we're gonna look at
+other houses and look at their house
+
+12
+00:00:40.610 --> 00:00:45.400
+sales prices to inform the house value
+of this house we're interested in.
+
+13
+00:00:45.400 --> 00:00:47.730
+And in addition to the sales prices,
+
+14
+00:00:47.730 --> 00:00:50.160
+we're gonna look at other
+features of the houses.
+
+15
+00:00:50.160 --> 00:00:52.460
+Like how many bedrooms the houses have.
+
+16
+00:00:52.460 --> 00:00:55.070
+Bathrooms, number of square feet,
+and so on.
+
+17
+00:00:56.320 --> 00:01:00.500
+And what we're gonna do,
+our machine learning method is something
+
+18
+00:01:00.500 --> 00:01:05.400
+that's gonna relate the house
+attributes to the sales price.
+
+19
+00:01:05.400 --> 00:01:09.560
+Because if we can learn this model, this
+relationship from our house level features
+
+20
+00:01:09.560 --> 00:01:14.750
+to the observed sales price, then we can
+use that for predicting on this new house.
+
+21
+00:01:14.750 --> 00:01:18.520
+We take its house attribute and
+predict its house sales price.
+
+22
+00:01:18.520 --> 00:01:20.680
+And this method is called regression.
+
+23
+00:01:21.730 --> 00:01:26.607
+In our second case study,
+we're gonna explore a sentiment analysis
+
+24
+00:01:26.607 --> 00:01:30.064
+task where we have reviews
+of some restaurants.
+
+25
+00:01:30.064 --> 00:01:34.579
+So for example in this case, it says the
+sushi was awesome, the food was awesome,
+
+26
+00:01:34.579 --> 00:01:36.788
+but the service was awful.
+
+27
+00:01:36.788 --> 00:01:38.817
+And we wanna take this review and
+
+28
+00:01:38.817 --> 00:01:42.358
+be able to classify whether
+it had positive sentiment.
+
+29
+00:01:42.358 --> 00:01:46.820
+It was a good review, thumbs up or
+a negative sentiment, thumbs down.
+
+30
+00:01:48.350 --> 00:01:49.800
+And so how are we gonna do this?
+
+31
+00:01:49.800 --> 00:01:52.850
+Well, we're gonna look at
+a lot of other reviews.
+
+32
+00:01:52.850 --> 00:01:57.350
+So, we're gonna look at the text of
+the review and the rating of the review.
+
+33
+00:01:57.350 --> 00:02:00.390
+In order to understand what's
+the relationship here, for
+
+34
+00:02:00.390 --> 00:02:03.900
+classification of this sentiment.
+
+35
+00:02:03.900 --> 00:02:06.420
+So, for example in this case,
+
+36
+00:02:06.420 --> 00:02:10.860
+maybe we might analyze the text of this
+review in terms of how many times it uses
+
+37
+00:02:10.860 --> 00:02:15.410
+the word awesome versus how many
+times it uses the word awful.
+
+38
+00:02:15.410 --> 00:02:20.100
+And from these other reviews that we have,
+we're gonna learn some decision boundary
+
+39
+00:02:20.100 --> 00:02:24.730
+between based on the balance of usage of
+these words whether it's a positive or
+
+40
+00:02:24.730 --> 00:02:26.290
+negative review.
+
+41
+00:02:26.290 --> 00:02:29.560
+And the way we learn that from these other
+reviews is based on the ratings associated
+
+42
+00:02:29.560 --> 00:02:31.050
+with that text.
+
+43
+00:02:31.050 --> 00:02:35.110
+And so this method is called
+a classification method.
+
+44
+00:02:35.110 --> 00:02:39.941
+In our third case study, we're gonna do
+a document retrieval task where here,
+
+45
+00:02:39.941 --> 00:02:44.051
+what we wanna do, the intelligence
+we're deriving is an article or
+
+46
+00:02:44.051 --> 00:02:47.963
+a book or something like this
+that's of interest to our reader.
+
+47
+00:02:47.963 --> 00:02:52.919
+And the data that we have is a huge
+collection of possible articles that
+
+48
+00:02:52.919 --> 00:02:54.436
+we could recommend.
+
+49
+00:02:54.436 --> 00:02:58.013
+And what we're gonna do,
+in this case, is we're gonna try and
+
+50
+00:02:58.013 --> 00:03:01.741
+find structure in this data based
+on groups of related articles.
+
+51
+00:03:01.741 --> 00:03:06.124
+Such as, maybe there's a collection of
+articles about sports and world news and
+
+52
+00:03:06.124 --> 00:03:08.120
+entertainment and science.
+
+53
+00:03:08.120 --> 00:03:11.920
+And if we find this structure and
+annotate our corpus,
+
+54
+00:03:11.920 --> 00:03:15.680
+our collection of documents
+with these types of labels
+
+55
+00:03:15.680 --> 00:03:19.510
+which we don't have ahead of time,
+we're trying to infer this from the data.
+
+56
+00:03:19.510 --> 00:03:23.690
+Then we can use this for very rapid
+document retrieval because if I'm sitting
+
+57
+00:03:23.690 --> 00:03:28.470
+here currently reading some article
+about world news, then maybe, if I wanna
+
+58
+00:03:28.470 --> 00:03:32.000
+retrieve another article, I already
+know which articles to search over.
+
+59
+00:03:33.180 --> 00:03:36.750
+And this type of approach
+is called clustering.
+
+60
+00:03:36.750 --> 00:03:37.790
+In our fourth case study,
+
+61
+00:03:37.790 --> 00:03:40.330
+we're gonna do this really interesting
+thing that's called collaborative
+
+62
+00:03:40.330 --> 00:03:44.588
+filtering that's had a lot of impact
+in many domains in the last decade.
+
+63
+00:03:44.588 --> 00:03:48.400
+Specifically, we're gonna look
+at doing product recommendation,
+
+64
+00:03:48.400 --> 00:03:53.329
+where you take your past purchases and
+trying to use those
+
+65
+00:03:53.329 --> 00:03:56.789
+to recommend some set of other products
+you might be interested in purchasing.
+
+66
+00:03:58.050 --> 00:04:02.410
+So in this case, the data that we're
+gonna use to derive this intelligence for
+
+67
+00:04:02.410 --> 00:04:07.350
+product recommendation is we'd like to
+understand what's the relationship between
+
+68
+00:04:07.350 --> 00:04:11.550
+what you bought before and
+what you're likely to buy in the future.
+
+69
+00:04:11.550 --> 00:04:16.530
+And to do this, we're gonna use
+other users' purchase histories.
+
+70
+00:04:16.530 --> 00:04:18.720
+And possibly, features of those users.
+
+71
+00:04:18.720 --> 00:04:22.655
+But the key idea here is we're
+gonna take this data and
+
+72
+00:04:22.655 --> 00:04:27.728
+we're gonna arrange it into this
+customers by products matrix where
+
+73
+00:04:27.728 --> 00:04:33.161
+the squares here indicate products
+that a customer actually purchased.
+
+74
+00:04:33.161 --> 00:04:36.630
+So those are products that
+are liked by that customer.
+
+75
+00:04:36.630 --> 00:04:42.274
+And from this matrix,
+we're gonna learn features about users and
+
+76
+00:04:42.274 --> 00:04:44.608
+features about products.
+
+77
+00:04:44.608 --> 00:04:47.359
+And once we learn those
+features about users and
+
+78
+00:04:47.359 --> 00:04:50.122
+products from this data
+that I've described.
+
+79
+00:04:50.122 --> 00:04:54.270
+We can think about using those features
+to see how much agreement there is
+
+80
+00:04:54.270 --> 00:04:58.282
+between what the user likes,
+different attributes the user likes and
+
+81
+00:04:58.282 --> 00:05:02.100
+whether the product is actually
+about those attributes.
+
+82
+00:05:02.100 --> 00:05:05.515
+So in the example I'm showing here,
+maybe a user is a mom,
+
+83
+00:05:05.515 --> 00:05:09.798
+has certain features that are similar
+to other users that are also moms.
+
+84
+00:05:09.798 --> 00:05:13.880
+And from that,
+we can infer things about products.
+
+85
+00:05:13.880 --> 00:05:15.260
+What are attributes about?
+
+86
+00:05:15.260 --> 00:05:18.835
+For example, baby products
+that are of interest to moms.
+
+87
+00:05:18.835 --> 00:05:22.570
+And we're using that information
+to form our recommendations.
+
+88
+00:05:22.570 --> 00:05:25.420
+And this type of approach
+going from this matrix,
+
+89
+00:05:25.420 --> 00:05:30.400
+this customers products matrix into
+these learned features about users and
+
+90
+00:05:30.400 --> 00:05:33.040
+products is called matrix factorization.
+
+91
+00:05:34.830 --> 00:05:37.120
+Okay, well in our final case study,
+
+92
+00:05:37.120 --> 00:05:40.090
+we're gonna look at a visual
+product recommender.
+
+93
+00:05:40.090 --> 00:05:45.040
+So here, our data is somebody's gonna
+go to the web and they're gonna input,
+
+94
+00:05:45.040 --> 00:05:46.920
+not text, but an image.
+
+95
+00:05:46.920 --> 00:05:51.406
+They're gonna put an image like of
+a black shoe, or a black boot, or
+
+96
+00:05:51.406 --> 00:05:54.892
+a high heel, or some docker shoe,
+or running shoe.
+
+97
+00:05:54.892 --> 00:05:59.729
+And what they want is they want
+a set of results of shoes that
+
+98
+00:05:59.729 --> 00:06:02.690
+might also be of interest to them.
+
+99
+00:06:02.690 --> 00:06:07.360
+So, shoes that are visually similar
+to the picture that they have.
+
+100
+00:06:07.360 --> 00:06:11.668
+And they wanna be able to search
+over those to purchase this item.
+
+101
+00:06:11.668 --> 00:06:13.528
+And the way we're gonna do this,
+
+102
+00:06:13.528 --> 00:06:17.117
+to be able to go from an image to
+a set of related images is we need to
+
+103
+00:06:17.117 --> 00:06:21.910
+have very good features about that image
+to find other images that are similar.
+
+104
+00:06:21.910 --> 00:06:25.610
+And the way we're gonna derive those
+really detailed features is something
+
+105
+00:06:25.610 --> 00:06:27.340
+called deep learning.
+
+106
+00:06:27.340 --> 00:06:31.425
+So in particular, we're gonna look at
+these neural networks where every layer of
+
+107
+00:06:31.425 --> 00:06:35.840
+the neural network provides more and
+more descriptive features.
+
+108
+00:06:35.840 --> 00:06:38.450
+So in the little example we show here,
+
+109
+00:06:38.450 --> 00:06:43.720
+the first layer might just detect in
+the image things like different edges.
+
+110
+00:06:43.720 --> 00:06:47.120
+Whereas with one we get to the second
+layer, we start detecting corners and
+
+111
+00:06:47.120 --> 00:06:49.050
+more interesting features like that.
+
+112
+00:06:49.050 --> 00:06:50.850
+And as you go deeper and
+deeper in these layers,
+
+113
+00:06:50.850 --> 00:06:53.760
+you get more intricate features arising.
+
+114
+00:06:53.760 --> 00:06:58.031
+So as you see, we're gonna walk through
+a series of real-world case studies,
+
+115
+00:06:58.031 --> 00:07:02.570
+real-world problems and real-world
+solutions using machine learning.
+
+116
+00:07:02.570 --> 00:07:03.564
+And through this,
+
+117
+00:07:03.564 --> 00:07:07.490
+we're gonna explore a series of methods
+that have a lot of power out there.
+
+118
+00:07:07.490 --> 00:07:12.696
+And are gonna allow you to be able to
+develop and deploy new machine learning
+
+119
+00:07:12.696 --> 00:07:17.748
+techniques on new problems that aren't
+the exact case studies we used.
+
+120
+00:07:17.748 --> 00:07:20.828
+But the case studies will allow us
+to really ground the methods that
+
+121
+00:07:20.828 --> 00:07:23.691
+we're describing with things
+that are very interpretable.
+
+122
+00:07:23.691 --> 00:07:27.559
+[MUSIC]

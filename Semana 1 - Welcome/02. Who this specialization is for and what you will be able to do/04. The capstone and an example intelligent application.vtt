@@ -1,0 +1,553 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.157
+[MUSIC]
+
+2
+00:00:04.157 --> 00:00:07.591
+Let's dig in and talk a little bit
+about the capstone application
+
+3
+00:00:07.591 --> 00:00:09.730
+that we're gonna build together.
+
+4
+00:00:09.730 --> 00:00:14.670
+So we're gonna build a recommender
+system for products that's intelligent,
+
+5
+00:00:14.670 --> 00:00:18.550
+that combines text, images,
+sentiment analysis, and deep learning.
+
+6
+00:00:18.550 --> 00:00:21.200
+Now, before talking about the capstone
+project which is really going
+
+7
+00:00:21.200 --> 00:00:21.770
+to be exciting.
+
+8
+00:00:21.770 --> 00:00:24.870
+Let me give you a quick demo of
+something that you could build,
+
+9
+00:00:24.870 --> 00:00:28.260
+a recommender system that you could build,
+that combines text and image data and
+
+10
+00:00:28.260 --> 00:00:30.340
+uses deep learning at its core.
+
+11
+00:00:30.340 --> 00:00:34.520
+Now let me show you an example of an
+intelligent application for recommending
+
+12
+00:00:34.520 --> 00:00:40.330
+products that combines image and text
+data and uses deep learning at its core.
+
+13
+00:00:40.330 --> 00:00:43.550
+So let me start off with a story.
+
+14
+00:00:43.550 --> 00:00:48.480
+So my sister's a fashion designer, and
+her birthday was coming up this month, and
+
+15
+00:00:48.480 --> 00:00:50.550
+I wanted to get her a gift
+that would impress her.
+
+16
+00:00:50.550 --> 00:00:52.730
+I want to get her a dress.
+
+17
+00:00:52.730 --> 00:00:56.180
+But it's really hard for
+me to choose a good dress.
+
+18
+00:00:56.180 --> 00:00:57.680
+I don't know much about dresses.
+
+19
+00:00:57.680 --> 00:01:02.480
+So if I do just standard keyword
+search and I search for dresses.
+
+20
+00:01:02.480 --> 00:01:06.760
+I am going to end up with something that
+looks like this that I am showing you
+
+21
+00:01:06.760 --> 00:01:07.877
+on the right here.
+
+22
+00:01:07.877 --> 00:01:12.641
+And you will see there's a wide range
+of dresses and it is very hard for
+
+23
+00:01:12.641 --> 00:01:16.584
+me to describe the kind of dress
+that my sister likes and so
+
+24
+00:01:16.584 --> 00:01:20.281
+I have seen her for
+example wear some floral dresses so
+
+25
+00:01:20.281 --> 00:01:25.375
+I could of course search that combines
+the keywords dress and floral, and
+
+26
+00:01:25.375 --> 00:01:31.380
+looks through the description of the dress
+and tries to find some floral dresses.
+
+27
+00:01:31.380 --> 00:01:33.360
+But even within floral dresses,
+
+28
+00:01:33.360 --> 00:01:37.300
+you see that there is a wide
+range of floral dresses up there.
+
+29
+00:01:37.300 --> 00:01:41.830
+And each one of them has
+a pretty different kind of style.
+
+30
+00:01:41.830 --> 00:01:47.460
+So the question is, how can I describe
+what is a good style for my sister?
+
+31
+00:01:47.460 --> 00:01:50.840
+Now, for example,
+take this dress over here.
+
+32
+00:01:50.840 --> 00:01:53.890
+It looks a little bit
+like what she might like.
+
+33
+00:01:53.890 --> 00:01:55.400
+Those warm sunset colors and rich.
+
+34
+00:01:55.400 --> 00:01:58.510
+So there's some text analyses
+that we can do that shows you
+
+35
+00:01:58.510 --> 00:02:01.720
+a little bit about what describes this
+dress but really visually looks good.
+
+36
+00:02:01.720 --> 00:02:05.730
+So the question is can we use visual
+cues to find other dresses that look
+
+37
+00:02:05.730 --> 00:02:07.090
+kind of like this one?
+
+38
+00:02:07.090 --> 00:02:09.530
+And you do things like this
+in your capstone project.
+
+39
+00:02:09.530 --> 00:02:10.930
+When I click on this dress,
+
+40
+00:02:10.930 --> 00:02:14.550
+we're gonna find visually similar dresses
+using a technique called deep learning.
+
+41
+00:02:14.550 --> 00:02:18.030
+Then you're gonna learn about
+already in this first course and
+
+42
+00:02:18.030 --> 00:02:20.090
+apply it in practice.
+
+43
+00:02:20.090 --> 00:02:23.130
+So when I click on this dress,
+what I'm gonna see
+
+44
+00:02:23.130 --> 00:02:26.560
+on the right is a bunch of dresses
+that are visually similar to this one.
+
+45
+00:02:27.570 --> 00:02:32.080
+And you will see, for example,
+the dresses tend to be floral,
+
+46
+00:02:32.080 --> 00:02:34.530
+they tend to have the similar hues,
+
+47
+00:02:34.530 --> 00:02:39.370
+similar colors, and even then, it's hard
+to describe what my sister might like.
+
+48
+00:02:39.370 --> 00:02:41.360
+But I can look at this dress
+right in the middle over here,
+
+49
+00:02:41.360 --> 00:02:45.140
+and say wow, this has Interesting pattern,
+different colors.
+
+50
+00:02:45.140 --> 00:02:46.700
+Maybe this is what my sister likes.
+
+51
+00:02:46.700 --> 00:02:50.920
+And if I click on it, I'm gonna find
+visually similar dresses to this one, so
+
+52
+00:02:50.920 --> 00:02:53.050
+dresses that have more
+interesting patterns and
+
+53
+00:02:53.050 --> 00:02:55.360
+multiple colors associated with them.
+
+54
+00:02:55.360 --> 00:02:58.420
+So you'll see as I scroll,
+there's variants of these.
+
+55
+00:02:58.420 --> 00:03:01.320
+And then maybe my eye
+catches this one over here.
+
+56
+00:03:01.320 --> 00:03:04.850
+Where it looks like something
+that my sister might like and
+
+57
+00:03:04.850 --> 00:03:08.680
+I might call her up and say,
+hey I think I found a great dress for you.
+
+58
+00:03:08.680 --> 00:03:10.740
+This one.
+
+59
+00:03:12.447 --> 00:03:17.840
+Now let's say that I call my sister and
+she looks kinda like this model.
+
+60
+00:03:17.840 --> 00:03:20.970
+I call her up and she says, you know.
+
+61
+00:03:20.970 --> 00:03:24.370
+This looks okay, but
+I am going to a cocktail party and
+
+62
+00:03:24.370 --> 00:03:26.800
+why don't you get me a cocktail dress.
+
+63
+00:03:26.800 --> 00:03:30.662
+So, I am trying to think about,
+I start over.
+
+64
+00:03:30.662 --> 00:03:35.390
+And I'm going to try to
+find her a cocktail dress.
+
+65
+00:03:38.760 --> 00:03:41.570
+Cocktail dresses are ones
+that you wear for
+
+66
+00:03:41.570 --> 00:03:45.110
+more formal parties that
+look kind of like this.
+
+67
+00:03:45.110 --> 00:03:47.290
+And there's all sorts of colors and
+things.
+
+68
+00:03:47.290 --> 00:03:49.510
+But maybe she's interested
+in a black cocktail dress.
+
+69
+00:03:49.510 --> 00:03:56.020
+So just play some keyword search like
+black cocktail dress, you'll get things
+
+70
+00:03:56.020 --> 00:03:59.380
+like this, but it's hard to describe
+what my sister might be interested in.
+
+71
+00:03:59.380 --> 00:04:00.850
+So I might ask her.
+
+72
+00:04:00.850 --> 00:04:01.670
+What you're interested in.
+
+73
+00:04:01.670 --> 00:04:05.410
+She says you know what I'm interested in
+is a a cocktail dress that's interesting,
+
+74
+00:04:05.410 --> 00:04:06.350
+with a touch of color.
+
+75
+00:04:07.940 --> 00:04:08.730
+She's a fashion designer.
+
+76
+00:04:09.780 --> 00:04:11.060
+What do I do?
+
+77
+00:04:11.060 --> 00:04:12.690
+How do I describe that?
+
+78
+00:04:12.690 --> 00:04:14.100
+So I look for these and say well,
+
+79
+00:04:14.100 --> 00:04:16.430
+this first few on the left
+is kind of interesting.
+
+80
+00:04:16.430 --> 00:04:20.870
+If you look at the keywords associated
+with it, you see the keyword jazzy.
+
+81
+00:04:20.870 --> 00:04:23.440
+So maybe she's interested
+in a jazzy dress.
+
+82
+00:04:23.440 --> 00:04:25.220
+So what do jazzy dresses look like?
+
+83
+00:04:25.220 --> 00:04:28.420
+So when I click on this keyword,
+that I discover from the text,
+
+84
+00:04:28.420 --> 00:04:31.210
+you see other jazzy dresses and
+they're kind of interesting but
+
+85
+00:04:31.210 --> 00:04:33.730
+they're not exactly kind
+of cocktail dresses.
+
+86
+00:04:33.730 --> 00:04:38.030
+So let me just click on this one and
+find a visually similar cocktail dress.
+
+87
+00:04:39.160 --> 00:04:43.250
+Now what you see is a bunch of
+cocktail dresses that tend to have
+
+88
+00:04:43.250 --> 00:04:45.660
+a bit more of interesting
+patterns associated with them.
+
+89
+00:04:46.930 --> 00:04:52.850
+So they're more interesting, more along
+the lines of what she was describing.
+
+90
+00:04:52.850 --> 00:04:56.750
+So if I scroll through this,
+say okay, this look pretty cool.
+
+91
+00:04:56.750 --> 00:05:00.448
+Maybe this one in the center, which is
+blue, maybe it has some color to it,
+
+92
+00:05:00.448 --> 00:05:01.877
+is what she's looking for.
+
+93
+00:05:01.877 --> 00:05:03.369
+I click on that.
+
+94
+00:05:03.369 --> 00:05:05.020
+I figure out, you know what?
+
+95
+00:05:06.350 --> 00:05:12.540
+It's not formal enough for
+a cocktail dress but if I scan down,
+
+96
+00:05:12.540 --> 00:05:17.830
+you'll see that I can find a dress like
+this one where it's a cocktail dress,
+
+97
+00:05:17.830 --> 00:05:23.410
+it's formal enough it has a touch of
+color to it and it's interesting.
+
+98
+00:05:23.410 --> 00:05:27.270
+And it might be something that she'll
+actually be interested in wearing.
+
+99
+00:05:28.478 --> 00:05:32.370
+So here, we've see an intelligent
+application that looks at text data,
+
+100
+00:05:32.370 --> 00:05:35.970
+image data, uses deep learning, and does
+some really cool and interesting things.
+
+101
+00:05:37.230 --> 00:05:41.740
+So we saw this demo of deep learning for
+visual product recommendation.
+
+102
+00:05:41.740 --> 00:05:42.570
+But in your capstone,
+
+103
+00:05:42.570 --> 00:05:46.440
+you do something really even cooler,
+much more interesting than this.
+
+104
+00:05:46.440 --> 00:05:49.024
+You're gonna take your
+capstone project and
+
+105
+00:05:49.024 --> 00:05:51.679
+you're going to combine
+a variety of things.
+
+106
+00:05:51.679 --> 00:05:54.843
+You combine recommenders
+with a recommender a system.
+
+107
+00:05:54.843 --> 00:05:59.086
+You're gonna do some text analysis,
+sentiment analysis, what people are saying
+
+108
+00:05:59.086 --> 00:06:03.190
+teviews about different products and
+extract those reviews and analyze them.
+
+109
+00:06:03.190 --> 00:06:06.800
+You're going to do some computer
+vision to visually understand images.
+
+110
+00:06:06.800 --> 00:06:10.165
+You're going to do some deep learning
+to really take that computer vision
+
+111
+00:06:10.165 --> 00:06:12.040
+techniques and
+make them extremely accurate.
+
+112
+00:06:12.040 --> 00:06:13.490
+And then you're gonna take it and
+
+113
+00:06:13.490 --> 00:06:16.790
+deploy it like a web service like
+the one I just showed you, that webpage.
+
+114
+00:06:16.790 --> 00:06:19.868
+You're gonna have your very own
+intelligent web service for
+
+115
+00:06:19.868 --> 00:06:23.789
+products which you can interact with,
+do some really interesting things and
+
+116
+00:06:23.789 --> 00:06:27.909
+really show to a ton of people how you
+created intelligence behind that service.
+
+117
+00:06:27.909 --> 00:06:31.739
+[MUSIC]
